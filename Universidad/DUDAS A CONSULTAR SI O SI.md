@@ -1,0 +1,1 @@
+- [x] COMO DETECTO QUE HAY OVERFLOW?? [[Teórico 4]].
