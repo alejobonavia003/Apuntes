@@ -1,0 +1,25 @@
+las API son peticiones de datos que le hacemos a otros servidores que deciden ser publicos 
+
+Por ejemplo si una empresa que te dice el clima decide crear una documentacion de como usar su API 
+ y publicarla nosotros a travez de peticiones a travez del url vamos a poder usar los codigos de sus
+ servidores en nuestra pagina 
+
+Entonces a trabez de peticiones HTTP podemos usar servidores de otras empresas 
+
+REPASANDO : hay peticiones GET POST PUT PATCH DELETE nosotros normalmente vamos a usar la GET 
+
+ahora las url de peticiones API son asi : https://bored-api.appbrewery.com/random?query=value&query2=value
+
+    -hasta el .com va a pertenecer al dominio de la pagina 
+    -/random es conocido como el endpoit es el punto final suele usarse para especificar que vamos a pedir 
+    -todos los parametros que estan despues del ? y del & son parametros que les podemos pasar a las APIs 
+
+Todos estos parametros y endpoit son diferentes en todas las apis por eso es mejor leer la documentacion de cada API antes de usarla 
+
+otra forma de pedir a la api algo especifico es con las IDs 
+    en mi ejemplo de actividades aleatorias le podemos pedir una actividad especifica diciendole su ID 
+    https://bored-api.appbrewery.com/activity/5914292
+    
+    -enviandole una peticion get con ese ID nos va a dar la actividad de mirar peliculas con amigos 
+    pero por que yo ya conocia ese ID y sabia que era esa actividad especifica asique le hice una peticion mas directa
+

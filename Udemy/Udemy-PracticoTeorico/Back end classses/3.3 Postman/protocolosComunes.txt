@@ -1,0 +1,29 @@
+
+Los estados de respuesta HTTP (códigos de estado) indican el resultado de una solicitud HTTP. Estos códigos están organizados en diferentes categorías. A continuación, se describen los estados de respuesta más comunes en cada categoría:
+
+1xx: Informativo
+100 Continue: El servidor ha recibido la solicitud inicial y el cliente debe continuar con la solicitud.
+101 Switching Protocols: El servidor acepta cambiar a un protocolo diferente, según lo solicitado por el cliente.
+2xx: Éxito
+200 OK: La solicitud ha sido exitosa y el servidor ha devuelto los datos solicitados.
+201 Created: La solicitud ha sido exitosa y se ha creado un nuevo recurso.
+202 Accepted: La solicitud ha sido aceptada para procesamiento, pero aún no se ha completado.
+204 No Content: La solicitud ha sido exitosa, pero no hay contenido que devolver.
+3xx: Redirección
+301 Moved Permanently: El recurso solicitado ha sido movido de forma permanente a una nueva URL.
+302 Found: El recurso solicitado se encuentra temporalmente en una URL diferente.
+304 Not Modified: El recurso no ha sido modificado desde la última solicitud, por lo que no se devuelve contenido.
+4xx: Error del Cliente
+400 Bad Request: La solicitud no puede ser procesada debido a un error del cliente (por ejemplo, sintaxis incorrecta).
+401 Unauthorized: La solicitud requiere autenticación.
+403 Forbidden: El servidor entiende la solicitud, pero se niega a autorizarla.
+404 Not Found: El servidor no puede encontrar el recurso solicitado.
+405 Method Not Allowed: El método HTTP utilizado no está permitido para el recurso solicitado.
+409 Conflict: La solicitud no se puede completar debido a un conflicto con el estado actual del recurso.
+5xx: Error del Servidor
+500 Internal Server Error: El servidor ha encontrado un error inesperado que le impide completar la solicitud.
+501 Not Implemented: El servidor no soporta la funcionalidad requerida para completar la solicitud.
+502 Bad Gateway: El servidor, actuando como una puerta de enlace o proxy, ha recibido una respuesta inválida del servidor upstream.
+503 Service Unavailable: El servidor no está disponible temporalmente, generalmente debido a mantenimiento o sobrecarga.
+
+

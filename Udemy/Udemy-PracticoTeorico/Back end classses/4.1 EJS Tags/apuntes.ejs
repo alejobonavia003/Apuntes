@@ -1,0 +1,50 @@
+<!-- 
+    TPOS DE ENCRIPTACIONES DE CODIGO MAS USADAS 
+--------------------------------------------------------------------------------------------------------------------------------
+        1. <% %> PODEMOS PONER CODIGO QUE NO TENGA SALIDA 
+Descripción:    Utilizado para el código de control de flujo de EJS (como bucles y condiciones). 
+                El contenido dentro de estos tags no se renderiza en el HTML resultante.
+Ejemplo:
+<% if (user) { %>
+    <h2>Welcome, <%= user.name %>!</h2>
+  <% } %>
+--------------------------------------------------------------------------------------------------------------------------------
+        2. <%= %> PODEMOS PONER CODIGO PERO ESTE TIENE QUE TENER SALIDA SI O SI
+  Descripción:  Utilizado para incrustar valores de variables en el HTML. 
+                Escapa automáticamente los caracteres especiales para prevenir ataques XSS.
+  Ejemplo:
+  <p>Username: <%= user.name %></p>
+  --------------------------------------------------------------------------------------------------------------------------------
+        3. <%- %> ACA SE PUEDE PONER CODIGO HTML CON ETIQUETAS Y TODO 
+  Descripción:  Similar a <%= %>, pero no escapa los caracteres especiales. 
+                Utilizado cuando se necesita incrustar HTML sin escaparlo.
+  Ejemplo:
+  <div><%- user.bio %></div>
+  --------------------------------------------------------------------------------------------------------------------------------
+        4. <%# %>
+  Descripción: Comentarios en EJS. Estos comentarios no aparecerán en el HTML resultante.
+  Ejemplo:
+  <%# Este es un comentario en EJS %>
+  --------------------------------------------------------------------------------------------------------------------------------
+        5. <% include %>
+  Descripción:  Incrusta una plantilla EJS dentro de otra. 
+                Muy útil para reutilizar componentes comunes como encabezados o pies de página.
+  Ejemplo:
+  <%- include('header') %>
+        6. <% % ... %  %>
+  Descripción: Utilizado para abrir y cerrar bloques de código en EJS, como en bucles y condiciones.
+  Ejemplo:
+  <% for (var i = 0; i < items.length; i++) { %>
+    <li><%= items[i] %></li>
+  <% } %>
+  --------------------------------------------------------------------------------------------------------------------------------
+
+    Estos tags te permiten insertar y manipular dinámicamente contenido en tus plantillas EJS,
+    facilitando la creación de aplicaciones web dinámicas.
+  
+  
+  
+  
+  
+  
+   -->

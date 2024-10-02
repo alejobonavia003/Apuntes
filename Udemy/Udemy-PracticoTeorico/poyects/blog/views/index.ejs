@@ -1,0 +1,21 @@
+
+
+    <%- include("partials/header.ejs") %>
+
+
+
+    <% if (locals.nueva){ %>
+        <%- include("newPublish.ejs") %>
+    <%  }  %>
+
+    <% if (locals.feed){ %>
+        <%- include("feed.ejs") %>
+    <%  }  %>
+
+    <% if (locals.acercaDe){ %>
+        <%- include("partials/acercaDe.ejs") %>
+    <%  }  %>
+
+
+    <%- include("partials/footer.ejs") %>
+

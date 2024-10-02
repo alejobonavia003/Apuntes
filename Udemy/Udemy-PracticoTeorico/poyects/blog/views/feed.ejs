@@ -1,0 +1,67 @@
+    <!-- Main content -->
+     <div class="container text-center"><h1 class="mb-4">Feed </h1></div>
+     
+    <div class="container my-4 py-4 bg-light">
+
+
+
+
+    <% if(feed.length > 0) {  %>
+
+    <%  for (var i = 0;i<feed.length;i++){ %>
+        <div id="posts" class=" my-2">
+            <div class="post">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title"><%= feed[i].titulo %></h2>
+                        <h6 class="card-subtitle mb-2 text-muted">Fecha de Publicación : <%=  feed[i].fecha  %></h6>
+                        <p class="card-text"><%= feed[i].content %></p>
+                            <!-- Botón para editar (PATCH) -->
+                            
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#editModal" data-id="<%= feed[i].id %>" data-title="<%= feed[i].titulo %>" data-content="<%= feed[i].content %>">
+                                Editar
+                            </button>
+                            
+                                <!-- Modal de Edición -->
+                                    <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="editModalLabel">Editar Publicación</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            </div>
+                                            <div class="modal-body">
+                                            <form id="editForm" action="/posts/<%= feed[i].id %>?_method=PATCH" method="POST">
+                                                <input type="hidden" name="_method" value="PATCH">
+                                                <div class="form-group">
+                                                <label for="postTitle">Título</label>
+                                                <input type="text" class="form-control" id="postTitle" name="titulo" required>
+                                                </div>
+                                                <div class="form-group">
+                                                <label for="postContent">Descripción</label>
+                                                <textarea class="form-control" id="postContent" name="content" rows="3" required></textarea>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Guardar cambios</button>
+                                            </form>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+  
+                            <!-- Botón para eliminar (DELETE) -->
+                            <form action="/posts/<%= feed[i].id %>?_method=DELETE" method="POST" class="d-inline">
+                            <button type="submit" class="btn btn-danger">Eliminar</button>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <%  }%>
+    <% } else { %>
+        <p>Todavia no hay publicaciónes disponibles</p>
+    <%}%>
+    </div>
+    <!-- Main content end -->
+

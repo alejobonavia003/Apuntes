@@ -1,0 +1,5 @@
+estos archivos son para que cuado agregemos algo a nuestro repositorio ignoremos las cosas privadas 
+
+https://github.com/github/gitignore/tree/main
+
+este repositorio tiene .gitignore templates para todos los lenguajes 

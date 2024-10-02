@@ -1,0 +1,17 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.perfil {
+    border: 5px solid #37B7C3;
+    border-radius: 50%;
+}
+.div1 {
+    background-color: #EBF4F6;
+    height: 300px;
+}
+
+.div2 {
+    background-color: #37B7C3;
+    height: 300px;
+}

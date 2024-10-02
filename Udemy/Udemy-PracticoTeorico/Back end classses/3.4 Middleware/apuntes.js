@@ -1,0 +1,7 @@
+/*
+basicamente cuando se cumplen ciertas condiciones en el archivo html se va a enviar una 
+solicitud post al servidor por ejemplo en este caso 
+    si tenemos un formulario con el atributo post y con un boton de tipo submit 
+    ahora cuando se clickee este boton va a enviar el formulario al servidor con el metodo post 
+    
+*/

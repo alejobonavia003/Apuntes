@@ -1,0 +1,40 @@
+pasos para poder hacer un sistema de versionado 
+
+primero programamos en nuestra area de trabajo osea visual
+    luego con git add lo pasamos al area de staging (git add ., "agrega todos los archivos.") (git add nombredearchivo.js "agrega solo ese archivo")
+
+una vez terminado todo lo pasamos al repositorio local con git commit -m "aca va el comentario de los cambios que allamos echos"
+luego con git push pasamos todos nuestros cambios al repositorio de git hub 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    GIT CLONE url  
+    este comando es para clonar un repositorio incluyendo todas las ramas que tenga y todos los commits tambien 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    COMO CREAR NUEVAS RAMAS 
+    es importante aveces crear una rama nueva para trabajar en una version y dejar la main solo para los trabajos ya realizados 
+
+    git branch name-of-branch 
+    este comando es para crear una nueva rama 
+
+    otra cosa interesante que podemos hacer al crear una nueva rama es seguir trabajando en la rama main y simultaneamente hacer trabajos experimentales en la rama nurva
+    si en algun momento llegamos a que queremos fucionar la rama principal con la rama experimental podemos usar el comando 
+
+    git marge name-of-branch ---> esto crea una rama nueva 
+
+    ahora si quereemos movernos a una rama podemos usar el comando 
+
+    git checkout name-of-branch
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PULL REQUEST 
+
+    nosotros podemos crear repositorios publicos y subir nuestros proyectos 
+    las demas personas podran ver y probar nuestro codigo haciendo un FORK  en el 
+    un FORK es copiar el ropositorio de github y pegarlo en su git para poder hacer lo que ellos quieran 
+    ahora si uno de ellos considera que deverias cambiar algo en el codigo pasa lo siguiente 
+    el hace las modificacion y te manda un PULL REQUEST y yo luego podre aceptar o rechazar esas modificaciones 
+    que el me ofrece para hacerle a mi repositorio publico 
+
+    PULL REQUEST // es aceptar las modificaciondes de los demas para mi repositorio original
+    FORK // es copiar un repositorio publico en mi cuenta de git 
+
