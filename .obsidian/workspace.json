@@ -13,30 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Organizacion del procesador/Pendientes/Subrutinas.md",
+                "file": "Tareas semanales/Universidad.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "94fb4df1aeaa06d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Organizacion del procesador/Pendientes/Call.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "356021845cdbbf11",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -105,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Tareas semanales/Universidad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Tareas semanales/Universidad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git code.md"
+                "file": "Tareas semanales/Universidad.md"
               }
             }
           }
@@ -166,52 +148,52 @@
   },
   "active": "29fa98d2b1f821f0",
   "lastOpenFiles": [
-    "Organizacion del procesador/Pendientes/Subrutinas.md",
-    "git code.md",
-    "Organizacion del procesador/Pendientes/ESI.md",
-    "Organizacion del procesador/Pendientes/EBP.md",
-    "Organizacion del procesador/Pendientes/Pop.md",
-    "Organizacion del procesador/Pendientes/Call.md",
-    "Organizacion del procesador/Pendientes/Ret.md",
-    "Organizacion del procesador/Resumen.md",
-    "Organizacion del procesador/Pendientes/EDI.md",
-    "Organizacion del procesador/Pendientes/Push.md",
-    "Organizacion del procesador/Pendientes/Esp.md",
-    "Organizacion del procesador/teoricos/Teorico 7.md",
-    "Organizacion del procesador/screens/Filas-y.Columnas.png",
-    "Organizacion del procesador/teoricos/Teorico 5.md",
-    "Organizacion del procesador/Reprecentacion de numeros/Representación de números racionales.md",
-    "Tareas a liquidar.md",
-    "Organizacion del procesador/Operaciones/DivicionR.md",
-    "Organizacion del procesador/Operaciones/MultiplicacionR.md",
-    "Organizacion del procesador/Operaciones/Suma y RestaR.md",
-    "Organizacion del procesador/teoricos/Teorico 6.md",
-    "Organizacion del procesador/Clase de repaso.md",
-    "Organizacion del procesador/Libro.md",
-    "Libro",
-    "Organizacion del procesador/Operaciones/Operaciones con Flotantes.md",
-    "Organizacion del procesador/Circuitos/REGISTROS DE INSTRUCCIONES.md",
-    "Organizacion del procesador/Circuitos/Unidad aritmeticologica.md",
-    "Organizacion del procesador/screens/Registro-de-32bits.png",
-    "Organizacion del procesador/Circuitos/Memoria.md",
-    "Organizacion del procesador/Definiciones/Sistema operativo.md",
-    "Organizacion del procesador/Definiciones",
-    "Organizacion del procesador/screens/Registros.png",
-    "Organizacion del procesador/screens/Program-Counter.png",
-    "Organizacion del procesador/screens/alg-divicion.png",
-    "Organizacion del procesador/screens/Alg-Multiplicacion (copia).png",
-    "Organizacion del procesador/screens/bit-de-memoria4.png",
-    "Organizacion del procesador/screens/Alg-Multiplicacion.png",
-    "Organizacion del procesador/screens/shift.png",
-    "Organizacion del procesador/screens/Resta electronica.png",
-    "Trabajo",
-    "Ingles",
-    "Tareas semanales",
-    "Sin título.canvas",
-    "Organizacion del procesador/Pendientes",
-    "Organizacion del procesador/Operaciones",
-    "Organizacion del procesador/Reprecentacion de numeros",
-    "Organizacion del procesador/Circuitos",
-    "Organizacion del procesador/Circuitos/Compuertas Logicas"
+    "Universidad/Ingles/Asincronicas/guia5.Bonavia.pdf",
+    "Universidad/Ingles/Asincronicas/guia-5-bonavia.docx",
+    "Universidad/Ingles/Asincronicas/BAUDINO_NATALIA_Doc26423243_Actividad_Tarea_asincronica_5_20-05-2024_20_37_24_p._m..pdf",
+    "Universidad/Ingles/Asincronicas/GUÍA 4-asincrónica.pdf",
+    "Universidad/Ingles/Asincronicas/Guia_4.pdf",
+    "Universidad/Ingles/Asincronicas/Guiaa_4.pdf",
+    "Universidad/Ingles/Asincronicas/BAUDINO_NATALIA_Doc26423243_Actividad_Tarea_asincronica_5_20-05-2024_20_37_24_p._m..docx",
+    "Universidad/Ingles/Asincronicas/bonavia-Actividad7B.docx",
+    "Universidad/Ingles/Asincronicas",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/is-number/index.js",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/is-number/package.json",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/is-number/README.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/http-errors/README.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/http-errors/HISTORY.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/ipaddr.js/README.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/inherits/README.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/is-extglob/README.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/iconv-lite/README.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/iconv-lite/Changelog.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/finalhandler/README.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/finalhandler/SECURITY.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/finalhandler/HISTORY.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/ignore-by-default/README.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/gopd/CHANGELOG.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/gopd/README.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/has-property-descriptors/README.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/has-property-descriptors/CHANGELOG.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/hasown/README.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/hasown/CHANGELOG.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/has-proto/README.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/has-flag/readme.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/has-proto/CHANGELOG.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/get-intrinsic/README.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/get-intrinsic/CHANGELOG.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/filelist/README.md",
+    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/glob-parent/README.md",
+    "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/tom4.png",
+    "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/tom3.png",
+    "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/tom2.png",
+    "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/tom1.png",
+    "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/snare.png",
+    "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/kick.png",
+    "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/crash.png",
+    "Udemy-PracticoTeorico/poyects/Dicee Challenge - Starting Files/images/dice6.png",
+    "Udemy-PracticoTeorico/poyects/Dicee Challenge - Starting Files/images/dice5.png",
+    "Udemy-PracticoTeorico/poyects/Dicee Challenge - Starting Files/images/dice4.png",
+    "Sin título.canvas"
   ]
 }
