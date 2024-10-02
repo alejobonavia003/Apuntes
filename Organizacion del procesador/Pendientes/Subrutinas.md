@@ -10,4 +10,3 @@ Las subrutinas son una forma de modularizar codigo, por eso estas son porciones 
 [[EBP]]: Base pointer es otro registro comun pero lo usamos especificamente para poder referenciar de igual manera a las variables y parametros independientemente de cuantas hay 
 
 
-
