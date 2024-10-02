@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "6d657247107ecd04",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e8803553513d57c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02fd9e015d831158",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Organizacion del procesador/Pendientes/Subrutinas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "94fb4df1aeaa06d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Organizacion del procesador/Pendientes/Call.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "356021845cdbbf11",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9e64e5acb5a2e710",
+    "type": "split",
+    "children": [
+      {
+        "id": "814e684b031935a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29fa98d2b1f821f0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ebb4f33eb0d4c59c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9fbeccd138bd7694",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 299.5
+  },
+  "right": {
+    "id": "224d45ec03180b82",
+    "type": "split",
+    "children": [
+      {
+        "id": "11786706d04e3969",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc82ac083dff32e0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2a750269e815bf5f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "00a8a9c8a7d5bf41",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4a325a3b5d997d7c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "git code.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "29fa98d2b1f821f0",
+  "lastOpenFiles": [
+    "Organizacion del procesador/Pendientes/Subrutinas.md",
+    "git code.md",
+    "Organizacion del procesador/Pendientes/ESI.md",
+    "Organizacion del procesador/Pendientes/EBP.md",
+    "Organizacion del procesador/Pendientes/Pop.md",
+    "Organizacion del procesador/Pendientes/Call.md",
+    "Organizacion del procesador/Pendientes/Ret.md",
+    "Organizacion del procesador/Resumen.md",
+    "Organizacion del procesador/Pendientes/EDI.md",
+    "Organizacion del procesador/Pendientes/Push.md",
+    "Organizacion del procesador/Pendientes/Esp.md",
+    "Organizacion del procesador/teoricos/Teorico 7.md",
+    "Organizacion del procesador/screens/Filas-y.Columnas.png",
+    "Organizacion del procesador/teoricos/Teorico 5.md",
+    "Organizacion del procesador/Reprecentacion de numeros/Representación de números racionales.md",
+    "Tareas a liquidar.md",
+    "Organizacion del procesador/Operaciones/DivicionR.md",
+    "Organizacion del procesador/Operaciones/MultiplicacionR.md",
+    "Organizacion del procesador/Operaciones/Suma y RestaR.md",
+    "Organizacion del procesador/teoricos/Teorico 6.md",
+    "Organizacion del procesador/Clase de repaso.md",
+    "Organizacion del procesador/Libro.md",
+    "Libro",
+    "Organizacion del procesador/Operaciones/Operaciones con Flotantes.md",
+    "Organizacion del procesador/Circuitos/REGISTROS DE INSTRUCCIONES.md",
+    "Organizacion del procesador/Circuitos/Unidad aritmeticologica.md",
+    "Organizacion del procesador/screens/Registro-de-32bits.png",
+    "Organizacion del procesador/Circuitos/Memoria.md",
+    "Organizacion del procesador/Definiciones/Sistema operativo.md",
+    "Organizacion del procesador/Definiciones",
+    "Organizacion del procesador/screens/Registros.png",
+    "Organizacion del procesador/screens/Program-Counter.png",
+    "Organizacion del procesador/screens/alg-divicion.png",
+    "Organizacion del procesador/screens/Alg-Multiplicacion (copia).png",
+    "Organizacion del procesador/screens/bit-de-memoria4.png",
+    "Organizacion del procesador/screens/Alg-Multiplicacion.png",
+    "Organizacion del procesador/screens/shift.png",
+    "Organizacion del procesador/screens/Resta electronica.png",
+    "Trabajo",
+    "Ingles",
+    "Tareas semanales",
+    "Sin título.canvas",
+    "Organizacion del procesador/Pendientes",
+    "Organizacion del procesador/Operaciones",
+    "Organizacion del procesador/Reprecentacion de numeros",
+    "Organizacion del procesador/Circuitos",
+    "Organizacion del procesador/Circuitos/Compuertas Logicas"
+  ]
+}
