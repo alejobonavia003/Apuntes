@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "2790f85ec9a579e6",
+        "id": "006971d22a4c6a47",
         "type": "tabs",
         "children": [
           {
-            "id": "3ed848226f7c6655",
+            "id": "064717c970fdc78f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Universidad/Organizacion del procesador/Pendientes/Subrutinas.md",
+                "file": "Universidad/Organizacion del procesador/Pendientes/PushA.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ba1abfee0a0cd62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Universidad/Organizacion del procesador/Pendientes/PopA.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Universidad/Organizacion del procesador/Pendientes/Subrutinas.md",
+                "file": "Universidad/Organizacion del procesador/Pendientes/PopA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Universidad/Organizacion del procesador/Pendientes/Subrutinas.md",
+                "file": "Universidad/Organizacion del procesador/Pendientes/PopA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Universidad/Organizacion del procesador/Pendientes/Subrutinas.md"
+                "file": "Universidad/Organizacion del procesador/Pendientes/PopA.md"
               }
             }
           }
@@ -146,12 +159,24 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "3ed848226f7c6655",
+  "active": "9ba1abfee0a0cd62",
   "lastOpenFiles": [
-    "Universidad/Ingles/Asincronicas/Bonavia-Alejo.docx",
+    "Universidad/Organizacion del procesador/Pendientes/PushA.md",
+    "Universidad/Organizacion del procesador/Pendientes/Enter.md",
+    "Universidad/Organizacion del procesador/Pendientes/Leave.md",
+    "Universidad/Organizacion del procesador/Pendientes/PopA.md",
+    "Universidad/Organizacion del procesador/Assembly/Subrutinas.md",
+    "Universidad/Organizacion del procesador/Assembly/Ret.md",
+    "Universidad/Organizacion del procesador/Assembly/Push.md",
+    "Universidad/Organizacion del procesador/Assembly/Pop.md",
+    "Universidad/Organizacion del procesador/Assembly/Call.md",
+    "Universidad/Organizacion del procesador/Assembly/Esp.md",
+    "Universidad/Organizacion del procesador/Assembly/ESI.md",
+    "Universidad/Organizacion del procesador/Assembly/EBP.md",
+    "Universidad/Organizacion del procesador/Assembly/EDI.md",
+    "Universidad/Organizacion del procesador/Assembly",
     "Universidad/Organizacion del procesador/teoricos/Teorico 7.md",
-    "Universidad/Organizacion del procesador/Pendientes/EDI.md",
-    "Universidad/Organizacion del procesador/Pendientes/ESI.md",
+    "Universidad/Ingles/Asincronicas/Bonavia-Alejo.docx",
     "Universidad/Organizacion del procesador/Clase de repaso.md",
     "Universidad/Organizacion del procesador/Resumen.md",
     "Universidad/Comandos Assembly.md",
@@ -167,24 +192,12 @@
     "Universidad/Ingles/Asincronicas/Guiaa_4.pdf",
     "Universidad/Ingles/Asincronicas/BAUDINO_NATALIA_Doc26423243_Actividad_Tarea_asincronica_5_20-05-2024_20_37_24_p._m..docx",
     "Universidad/Ingles/Asincronicas/bonavia-Actividad7B.docx",
-    "Universidad/Ingles/Asincronicas",
-    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/is-number/index.js",
     "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/is-number/README.md",
     "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/http-errors/README.md",
     "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/http-errors/HISTORY.md",
     "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/ipaddr.js/README.md",
     "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/inherits/README.md",
     "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/is-extglob/README.md",
-    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/iconv-lite/README.md",
-    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/iconv-lite/Changelog.md",
-    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/finalhandler/README.md",
-    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/finalhandler/SECURITY.md",
-    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/finalhandler/HISTORY.md",
-    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/ignore-by-default/README.md",
-    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/gopd/CHANGELOG.md",
-    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/gopd/README.md",
-    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/has-property-descriptors/README.md",
-    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/has-property-descriptors/CHANGELOG.md",
     "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/tom4.png",
     "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/tom3.png",
     "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/tom2.png",
