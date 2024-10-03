@@ -1,1 +1,2 @@
 - [x] COMO DETECTO QUE HAY OVERFLOW?? [[Teórico 4]].
+- [ ] Como soluciono el error de la linea 60 al intentar replicar un bucle for[[Comandos Assembly]]
