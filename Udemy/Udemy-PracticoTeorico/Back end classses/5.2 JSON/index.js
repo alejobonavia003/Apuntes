@@ -4,6 +4,7 @@ import bodyParser from "body-parser";
 const app = express();
 const port = 3000;
 
+
 //Step 1: Run the solution.js file without looking at the code.
 //Step 2: You can go to the recipe.json file to see the full structure of the recipeJSON below.
 const recipeJSON =
@@ -12,28 +13,30 @@ const recipeJSON =
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
+let data;
+
 app.get("/", (req, res) => {
-  res.render("index.ejs");
+  res.render("index.ejs",{recipe: data});
 });
 
 app.post("/recipe", (req, res) => {
+  if (req.body.choice == "chicken"){ // cuando algo de nombre choise envie el valor chicken entra al if 
+    console.log("Chicken Taco");
+    data = JSON.parse(recipeJSON)[0];
+  }
+  if(req.body.choice == "beef"){
+    console.log("Beef Taco");
+    data = JSON.parse(recipeJSON)[1];
+  }
+  if(req.body.choice == "fish"){
+    console.log("Fish Taco");
+    data = JSON.parse(recipeJSON)[2];
+  }
   //Step 3: Write your code here to make this behave like the solution website.
   //Step 4: Add code to views/index.ejs to use the recieved recipe object.
-  //voy a recibir con que valor me mando ell formulario y dependiendo el valor va a ser la receta que le voy a mandar 
-  var receta = {};
-  if(req.body.chicken){ // dependiendo en que boton aprete va a ser la receta que se mande al ejs 
-    console.log("chicken");
-    receta = JSON.parse(recipeJSON)[0];
-  } else if (req.body.beef){
-    console.log("beef");
-    receta = JSON.parse(recipeJSON)[1];
-  } else if (req.body.fish){
-    receta = JSON.parse(recipeJSON)[2];
-  }
-
-  res.render("index.ejs", {ingredientes:receta} );
+  res.redirect("/");
 });
 
 app.listen(port, () => {
-  console.log(`Server running on port: ${port}`);
+  console.log(`BIENN estamos retrasmitieno el el port: ${port}`);
 });

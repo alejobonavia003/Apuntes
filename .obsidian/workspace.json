@@ -20,19 +20,43 @@
             }
           },
           {
-            "id": "9ba1abfee0a0cd62",
+            "id": "d2c0fa27b0b50f06",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Universidad/Organizacion del procesador/Pendientes/PopA.md",
+                "file": "Udemy/Apuntes/Resumen.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7da16b806d434d9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Udemy/Apuntes/JSON.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "78cb489dc9eabac6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Udemy/Apuntes/EJS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Universidad/Organizacion del procesador/Pendientes/PopA.md",
+                "file": "Udemy/Apuntes/EJS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Universidad/Organizacion del procesador/Pendientes/PopA.md",
+                "file": "Udemy/Apuntes/EJS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Universidad/Organizacion del procesador/Pendientes/PopA.md"
+                "file": "Udemy/Apuntes/EJS.md"
               }
             }
           }
@@ -159,45 +183,46 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "9ba1abfee0a0cd62",
+  "active": "29fa98d2b1f821f0",
   "lastOpenFiles": [
-    "Universidad/Organizacion del procesador/Pendientes/PushA.md",
-    "Universidad/Organizacion del procesador/Pendientes/Enter.md",
-    "Universidad/Organizacion del procesador/Pendientes/Leave.md",
-    "Universidad/Organizacion del procesador/Pendientes/PopA.md",
-    "Universidad/Organizacion del procesador/Assembly/Subrutinas.md",
-    "Universidad/Organizacion del procesador/Assembly/Ret.md",
-    "Universidad/Organizacion del procesador/Assembly/Push.md",
-    "Universidad/Organizacion del procesador/Assembly/Pop.md",
-    "Universidad/Organizacion del procesador/Assembly/Call.md",
-    "Universidad/Organizacion del procesador/Assembly/Esp.md",
-    "Universidad/Organizacion del procesador/Assembly/ESI.md",
-    "Universidad/Organizacion del procesador/Assembly/EBP.md",
-    "Universidad/Organizacion del procesador/Assembly/EDI.md",
-    "Universidad/Organizacion del procesador/Assembly",
-    "Universidad/Organizacion del procesador/teoricos/Teorico 7.md",
-    "Universidad/Ingles/Asincronicas/Bonavia-Alejo.docx",
-    "Universidad/Organizacion del procesador/Clase de repaso.md",
-    "Universidad/Organizacion del procesador/Resumen.md",
-    "Universidad/Comandos Assembly.md",
-    "Universidad/DUDAS A CONSULTAR SI O SI.md",
-    "Universidad/Organizacion del procesador/Libro.md",
+    "Udemy/Apuntes/JSON.md",
+    "Udemy/Apuntes/EJS.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/package.json",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/index.js",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/readme.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/license",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/index.d.ts",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/filelist/node_modules/minimatch/lib/path.js",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/filelist/node_modules/minimatch/lib",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/forwarded/README.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/forwarded/package.json",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/forwarded/LICENSE",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/forwarded/index.js",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/forwarded/HISTORY.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/fresh/README.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/fresh/HISTORY.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/express/Readme.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/express/History.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/express/node_modules/body-parser/SECURITY.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/debug/CHANGELOG.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/express/node_modules/body-parser/README.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/body-parser/README.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/call-bind/README.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/express/node_modules/body-parser/HISTORY.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/body-parser/HISTORY.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/send/SECURITY.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/chalk/readme.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/finalhandler/SECURITY.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/finalhandler/README.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/finalhandler/HISTORY.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/raw-body/SECURITY.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/qs/README.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/qs/LICENSE.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/qs/CHANGELOG.md",
+    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/side-channel/README.md",
+    "Udemy/Apuntes/Screnss/JSON-examples.png",
     "Udemy/Udemy-PracticoTeorico/Front end classes/cv/assets/Screenshot_20240424_005524_Gallery.jpg",
-    "Tareas semanales/Universidad.md",
-    "Universidad/Ingles/Asincronicas/guia5.Bonavia.pdf",
-    "Universidad/Ingles/Asincronicas/guia-5-bonavia.docx",
-    "Universidad/Ingles/Asincronicas/BAUDINO_NATALIA_Doc26423243_Actividad_Tarea_asincronica_5_20-05-2024_20_37_24_p._m..pdf",
-    "Universidad/Ingles/Asincronicas/GUÍA 4-asincrónica.pdf",
-    "Universidad/Ingles/Asincronicas/Guia_4.pdf",
-    "Universidad/Ingles/Asincronicas/Guiaa_4.pdf",
-    "Universidad/Ingles/Asincronicas/BAUDINO_NATALIA_Doc26423243_Actividad_Tarea_asincronica_5_20-05-2024_20_37_24_p._m..docx",
-    "Universidad/Ingles/Asincronicas/bonavia-Actividad7B.docx",
-    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/is-number/README.md",
-    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/http-errors/README.md",
-    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/http-errors/HISTORY.md",
-    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/ipaddr.js/README.md",
-    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/inherits/README.md",
-    "Udemy-PracticoTeorico/Back end classses/4.0 EJS/node_modules/is-extglob/README.md",
     "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/tom4.png",
     "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/tom3.png",
     "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/tom2.png",
@@ -206,7 +231,6 @@
     "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/kick.png",
     "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/crash.png",
     "Udemy-PracticoTeorico/poyects/Dicee Challenge - Starting Files/images/dice6.png",
-    "Udemy-PracticoTeorico/poyects/Dicee Challenge - Starting Files/images/dice5.png",
     "Sin título.canvas"
   ]
 }

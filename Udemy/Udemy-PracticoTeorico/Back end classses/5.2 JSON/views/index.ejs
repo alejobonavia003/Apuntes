@@ -10,32 +10,35 @@
   <h1>Taco Town 🌮</h1>
 
   <form action="/recipe" method="POST" class="buttons">
-    <button type="submit" value="chicken" name="chicken">🍗</button>
-    <button type="submit" value="beef" name="beef">🥩</button>
-    <button type="submit" value="fish" name="fish">🐟</button>
+    <button type="submit" value="chicken" name="choice">🍗</button>
+    <button type="submit" value="beef" name="choice">🥩</button>
+    <button type="submit" value="fish" name="choice">🐟</button>
   </form>
   <div id="recipeContainer" class="hidden">
 
-    <!-- Else, show the recipe name e.g. <h2>Recipe name</h2>-->
-     <% if(locals.ingredientes){ %>
+    <% if(locals.recipe) { %> <%# Cuando le lleguen los datos vamos a mostrar los ingredientes %>
 
-      <h2><%= ingredientes.name %></h2>
-        <h3>Ingredients:</h3>
+      <h2><%= recipe.name %></h2>
+
+      <h3>Ingredients:</h3>
       <ul id="ingredientsList">
-        <li><%= ingredientes.ingredients.protein.name %>, <%= ingredientes.ingredients.protein.preparation %></li>
-        <li><%= ingredientes.ingredients.salsa.name%></li>
-        <% for(var i=0;i<ingredientes.ingredients.toppings.length;i++){ %>
-        <li><%= ingredientes.ingredients.toppings[i].name %> : <%= ingredientes.ingredients.toppings[i].quantity %></li>
-        <% } %>
+        <li>Protein name:<%= recipe.ingredients.protein.name %> , protein preparation: <%= recipe.ingredients.protein.preparation %></li>
+        <li>Salsa name: <%= recipe.ingredients.salsa.name %></li>
+        <li>  <h3>toppings:</h3> <% for (var i = 0;i<recipe.ingredients.toppings.length;i++){ %>
+                  <h5><%= recipe.ingredients.toppings[i].name %> </h5>
+                  <ul id="ingredientsList">
+                      <li>quantity: <%= recipe.ingredients.toppings[i].quantity %></li>
+                      <li>ingredients: <%= recipe.ingredients.toppings[i].ingredients %></li>
+                  </ul>
+          <% } %> </li>
       </ul>
 
-      <% } else { %>
-      <!-- If no recipe yet, show: -->
-      <h2>Pick your favourite taco ingredient 👆</h2>
 
-     <% } %>
-
-
+      <% } else { %> <%# si no llegan los datos mostramos lo siguiente %>
+        <h2>Pick your favourite taco ingredient 👆</h2>
+   <% } %>
+    
+    <!-- Else, show the recipe name e.g. <h2>Recipe name</h2>-->
 
 
   </div>
