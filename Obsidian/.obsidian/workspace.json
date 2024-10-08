@@ -25,38 +25,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Udemy/Apuntes/Resumen.md",
+                "file": "Universidad/Organizacion del procesador/Assembly/Pop.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7da16b806d434d9f",
+            "id": "117b7bdbab2c8518",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Udemy/Apuntes/JSON.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "78cb489dc9eabac6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Udemy/Apuntes/EJS.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Udemy/Apuntes/EJS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +122,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Udemy/Apuntes/EJS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Udemy/Apuntes/EJS.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -183,9 +163,17 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "29fa98d2b1f821f0",
+  "active": "117b7bdbab2c8518",
   "lastOpenFiles": [
+    "Microprogramas.md",
+    "Universidad/Organizacion del procesador/Resumen.md",
+    "Universidad/Organizacion del procesador/teoricos/Teorico 8.md",
+    "Universidad/Organizacion del procesador/Assembly/Pop.md",
+    "Universidad/Organizacion del procesador/Assembly/Esp.md",
+    "Universidad/Organizacion del procesador/teoricos/Teorico 6.md",
+    "Udemy/Apuntes/Resumen.md",
     "Udemy/Apuntes/JSON.md",
+    "Universidad/Organizacion del procesador/Pendientes/PushA.md",
     "Udemy/Apuntes/EJS.md",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/package.json",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/index.js",
@@ -213,14 +201,6 @@
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/body-parser/HISTORY.md",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/send/SECURITY.md",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/chalk/readme.md",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/finalhandler/SECURITY.md",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/finalhandler/README.md",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/finalhandler/HISTORY.md",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/raw-body/SECURITY.md",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/qs/README.md",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/qs/LICENSE.md",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/qs/CHANGELOG.md",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/side-channel/README.md",
     "Udemy/Apuntes/Screnss/JSON-examples.png",
     "Udemy/Udemy-PracticoTeorico/Front end classes/cv/assets/Screenshot_20240424_005524_Gallery.jpg",
     "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/tom4.png",
