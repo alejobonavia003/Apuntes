@@ -13,34 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Universidad/Organizacion del procesador/Pendientes/PushA.md",
+                "file": "Udemy/Apuntes/HTTP.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "d2c0fa27b0b50f06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Universidad/Organizacion del procesador/Assembly/Pop.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "117b7bdbab2c8518",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Udemy/Apuntes/HTTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Udemy/Apuntes/HTTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Udemy/Apuntes/HTTP.md"
+              }
             }
           }
         ]
@@ -163,17 +146,18 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "117b7bdbab2c8518",
+  "active": "064717c970fdc78f",
   "lastOpenFiles": [
-    "Microprogramas.md",
-    "Universidad/Organizacion del procesador/Resumen.md",
-    "Universidad/Organizacion del procesador/teoricos/Teorico 8.md",
-    "Universidad/Organizacion del procesador/Assembly/Pop.md",
-    "Universidad/Organizacion del procesador/Assembly/Esp.md",
-    "Universidad/Organizacion del procesador/teoricos/Teorico 6.md",
+    "Udemy/Apuntes/Axios.md",
     "Udemy/Apuntes/Resumen.md",
-    "Udemy/Apuntes/JSON.md",
     "Universidad/Organizacion del procesador/Pendientes/PushA.md",
+    "Universidad/Organizacion del procesador/teoricos/Teorico 6.md",
+    "Universidad/Organizacion del procesador/Resumen.md",
+    "Universidad/Organizacion del procesador/Assembly/Pop.md",
+    "Microprogramas.md",
+    "Universidad/Organizacion del procesador/teoricos/Teorico 8.md",
+    "Universidad/Organizacion del procesador/Assembly/Esp.md",
+    "Udemy/Apuntes/JSON.md",
     "Udemy/Apuntes/EJS.md",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/package.json",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/index.js",
@@ -200,7 +184,6 @@
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/express/node_modules/body-parser/HISTORY.md",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/body-parser/HISTORY.md",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/send/SECURITY.md",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/chalk/readme.md",
     "Udemy/Apuntes/Screnss/JSON-examples.png",
     "Udemy/Udemy-PracticoTeorico/Front end classes/cv/assets/Screenshot_20240424_005524_Gallery.jpg",
     "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/tom4.png",
