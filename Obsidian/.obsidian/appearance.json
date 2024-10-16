@@ -2,5 +2,6 @@
   "theme": "obsidian",
   "cssTheme": "Dracula Plus",
   "accentColor": "#ffffff",
-  "baseFontSize": 15
+  "baseFontSize": 22,
+  "baseFontSizeAction": true
 }
