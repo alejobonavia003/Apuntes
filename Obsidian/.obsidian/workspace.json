@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Udemy/Apuntes/HTTP.md",
+                "file": "Universidad/Organizacion del procesador/Pendientes/PushA.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "d2c0fa27b0b50f06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Universidad/Organizacion del procesador/Assembly/Pop.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "117b7bdbab2c8518",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Universidad/Organizacion del procesador/Resumen.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3b5d94e985177162",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Universidad/Organizacion del procesador/teoricos/Teorico 8.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -69,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "right": {
     "id": "224d45ec03180b82",
@@ -85,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Udemy/Apuntes/HTTP.md",
+                "file": "Universidad/Organizacion del procesador/teoricos/Teorico 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Udemy/Apuntes/HTTP.md",
+                "file": "Universidad/Organizacion del procesador/teoricos/Teorico 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Udemy/Apuntes/HTTP.md"
+                "file": "Universidad/Organizacion del procesador/teoricos/Teorico 8.md"
               }
             }
           }
@@ -146,18 +184,24 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "064717c970fdc78f",
+  "active": "3b5d94e985177162",
   "lastOpenFiles": [
-    "Udemy/Apuntes/Axios.md",
-    "Udemy/Apuntes/Resumen.md",
-    "Universidad/Organizacion del procesador/Pendientes/PushA.md",
-    "Universidad/Organizacion del procesador/teoricos/Teorico 6.md",
-    "Universidad/Organizacion del procesador/Resumen.md",
-    "Universidad/Organizacion del procesador/Assembly/Pop.md",
-    "Microprogramas.md",
+    "Universidad/Organizacion del procesador/teoricos/Teorico 9.md",
     "Universidad/Organizacion del procesador/teoricos/Teorico 8.md",
+    "Cpusim.md",
+    "Universidad/Organizacion del procesador/Resumen.md",
+    "Sin nombre",
+    "Udemy/Screnss/JSON-examples.png",
+    "Udemy/Screnss",
+    "Udemy/Apuntes/Axios.md",
+    "Universidad/Organizacion del procesador/teoricos/Teorico 5.md",
+    "Microprogramas.md",
+    "Universidad/Organizacion del procesador/Assembly/Pop.md",
     "Universidad/Organizacion del procesador/Assembly/Esp.md",
+    "Universidad/Organizacion del procesador/teoricos/Teorico 6.md",
+    "Udemy/Apuntes/Resumen.md",
     "Udemy/Apuntes/JSON.md",
+    "Universidad/Organizacion del procesador/Pendientes/PushA.md",
     "Udemy/Apuntes/EJS.md",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/package.json",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/index.js",
@@ -169,8 +213,6 @@
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/filelist/node_modules/minimatch/lib",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/forwarded/README.md",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/forwarded/package.json",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/forwarded/LICENSE",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/forwarded/index.js",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/forwarded/HISTORY.md",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/fresh/README.md",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/fresh/HISTORY.md",
@@ -181,9 +223,6 @@
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/express/node_modules/body-parser/README.md",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/body-parser/README.md",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/call-bind/README.md",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/express/node_modules/body-parser/HISTORY.md",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/body-parser/HISTORY.md",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/send/SECURITY.md",
     "Udemy/Apuntes/Screnss/JSON-examples.png",
     "Udemy/Udemy-PracticoTeorico/Front end classes/cv/assets/Screenshot_20240424_005524_Gallery.jpg",
     "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/tom4.png",
@@ -193,7 +232,6 @@
     "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/snare.png",
     "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/kick.png",
     "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/crash.png",
-    "Udemy-PracticoTeorico/poyects/Dicee Challenge - Starting Files/images/dice6.png",
     "Sin título.canvas"
   ]
 }
