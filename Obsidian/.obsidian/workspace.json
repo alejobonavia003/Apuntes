@@ -13,13 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Universidad/Organizacion del procesador/Resumen.md",
+                "file": "Universidad/Organizacion del procesador/teoricos/Teorico 7.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Teorico 7"
+            }
+          },
+          {
+            "id": "7ba613ac4a3ea303",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Universidad/Organizacion del procesador/Assembly/EBP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "EBP"
+            }
+          },
+          {
+            "id": "f3f4914e0a152114",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Universidad/Organizacion del procesador/Assembly/Push.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Push"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -39,7 +70,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -48,13 +81,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "jn",
+                "query": "PUS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
             }
           },
           {
@@ -62,10 +97,13 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Universidad/Organizacion del procesador/Resumen.md",
+                "file": "Universidad/Organizacion del procesador/Pendientes/Enter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +131,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Enter"
             }
           },
           {
@@ -102,10 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Universidad/Organizacion del procesador/Resumen.md",
+                "file": "Universidad/Organizacion del procesador/Pendientes/Enter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Enter"
             }
           },
           {
@@ -116,7 +158,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
             }
           },
           {
@@ -125,8 +169,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Universidad/Organizacion del procesador/Resumen.md"
-              }
+                "file": "Universidad/Organizacion del procesador/Pendientes/Enter.md"
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Enter"
             }
           }
         ]
@@ -146,21 +192,30 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "a1d3988e061d715c",
+  "active": "f3f4914e0a152114",
   "lastOpenFiles": [
-    "Universidad/Comandos Assembly.md",
+    "Como Estudiar.md",
     "Universidad/Organizacion del procesador/Assembly/EBP.md",
-    "Universidad/Organizacion del procesador/Assembly/Subrutinas.md",
-    "Universidad/Organizacion del procesador/Assembly/Call.md",
+    "Universidad/Organizacion del procesador/teoricos/Teorico 7.md",
+    "Universidad/Organizacion del procesador/Pendientes/Leave.md",
+    "Universidad/Organizacion del procesador/Pendientes/Enter.md",
+    "Universidad/Organizacion del procesador/Assembly/EDI.md",
+    "Universidad/Organizacion del procesador/Assembly/ESI.md",
     "Universidad/Organizacion del procesador/Assembly/Esp.md",
+    "Universidad/Organizacion del procesador/Assembly/Subrutinas.md",
+    "Universidad/Organizacion del procesador/Assembly/Push.md",
+    "Universidad/Organizacion del procesador/screens/pila_z80.png",
+    "Universidad/Organizacion del procesador/screens/pila_z80.png.crdownload",
+    "Universidad/Organizacion del procesador/Assembly/Pop.md",
+    "Universidad/Organizacion del procesador/Assembly/Ret.md",
+    "Universidad/Organizacion del procesador/Resumen.md",
+    "Universidad/Comandos Assembly.md",
+    "Universidad/Organizacion del procesador/Assembly/Call.md",
     "Universidad/Organizacion del procesador/teoricos/Teorico 6.md",
     "Universidad/Organizacion del procesador/screens/IfElse.png",
     "Universidad/Organizacion del procesador/teoricos/Teorico 8.md",
-    "Universidad/Organizacion del procesador/teoricos/Teorico 7.md",
-    "Sin título.md",
     "().md",
     "Universidad/Organizacion del procesador/teoricos/Teórico 3.md",
-    "Universidad/Organizacion del procesador/Resumen.md",
     "Universidad/Organizacion del procesador/teoricos/Teorico 5.md",
     "Universidad/Organizacion del procesador/screens/Instucciones-ISA.png",
     "Universidad/Organizacion del procesador/Clase de repaso.md",
@@ -171,29 +226,20 @@
     "Udemy/Screnss",
     "Udemy/Apuntes/Axios.md",
     "Microprogramas.md",
-    "Universidad/Organizacion del procesador/Assembly/Pop.md",
     "Udemy/Apuntes/Resumen.md",
-    "Udemy/Apuntes/JSON.md",
-    "Universidad/Organizacion del procesador/Pendientes/PushA.md",
-    "Udemy/Apuntes/EJS.md",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/package.json",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/index.js",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/readme.md",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/license",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/index.d.ts",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/filelist/node_modules/minimatch/lib/path.js",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/filelist/node_modules/minimatch/lib",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/forwarded/README.md",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/forwarded/package.json",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/forwarded/HISTORY.md",
     "Udemy/Apuntes/Screnss/JSON-examples.png",
     "Udemy/Udemy-PracticoTeorico/Front end classes/cv/assets/Screenshot_20240424_005524_Gallery.jpg",
     "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/tom4.png",
     "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/tom3.png",
     "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/tom2.png",
     "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/tom1.png",
-    "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/snare.png",
     "Sin título.canvas"
   ]
 }

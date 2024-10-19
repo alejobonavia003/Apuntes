@@ -1,7 +1,7 @@
 {
   "theme": "obsidian",
-  "cssTheme": "Dracula Plus",
+  "cssTheme": "Blue Topaz",
   "accentColor": "#ffffff",
-  "baseFontSize": 22,
+  "baseFontSize": 16,
   "baseFontSizeAction": true
 }
