@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Universidad/Organizacion del procesador/Assembly/Push.md",
-                "mode": "preview",
+                "file": "Cpusim.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Push"
+              "title": "Cpusim"
             }
           }
         ],
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "PUS",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,8 +102,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -194,19 +193,20 @@
   },
   "active": "f3f4914e0a152114",
   "lastOpenFiles": [
+    "Universidad/Organizacion del procesador/teoricos/Teorico 7.md",
+    "Universidad/Organizacion del procesador/Pendientes/PushA.md",
+    "Universidad/Organizacion del procesador/Assembly/Subrutinas.md",
+    "Universidad/Organizacion del procesador/Pendientes/Enter.md",
+    "Universidad/Organizacion del procesador/Assembly/Esp.md",
+    "Universidad/Organizacion del procesador/Assembly/Pop.md",
+    "Universidad/Organizacion del procesador/Assembly/Push.md",
     "Como Estudiar.md",
     "Universidad/Organizacion del procesador/Assembly/EBP.md",
-    "Universidad/Organizacion del procesador/teoricos/Teorico 7.md",
     "Universidad/Organizacion del procesador/Pendientes/Leave.md",
-    "Universidad/Organizacion del procesador/Pendientes/Enter.md",
     "Universidad/Organizacion del procesador/Assembly/EDI.md",
     "Universidad/Organizacion del procesador/Assembly/ESI.md",
-    "Universidad/Organizacion del procesador/Assembly/Esp.md",
-    "Universidad/Organizacion del procesador/Assembly/Subrutinas.md",
-    "Universidad/Organizacion del procesador/Assembly/Push.md",
     "Universidad/Organizacion del procesador/screens/pila_z80.png",
     "Universidad/Organizacion del procesador/screens/pila_z80.png.crdownload",
-    "Universidad/Organizacion del procesador/Assembly/Pop.md",
     "Universidad/Organizacion del procesador/Assembly/Ret.md",
     "Universidad/Organizacion del procesador/Resumen.md",
     "Universidad/Comandos Assembly.md",
@@ -226,7 +226,6 @@
     "Udemy/Screnss",
     "Udemy/Apuntes/Axios.md",
     "Microprogramas.md",
-    "Udemy/Apuntes/Resumen.md",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/package.json",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/index.js",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/license",
