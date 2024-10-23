@@ -1,0 +1,13 @@
+; cargamos la cantidad de ciclos que queremos repetir 
+; se muestra por pantalla como va decreciendo el indice hasta terminar el ciclo
+
+
+Start:	read		; ingresamos la cantidad de veces que se va a ciclar
+for1: 
+    write               ; mostramos el contenido de acc por pantalla
+    loop for1
+          
+        stop  		; termina el programa
+
+
+

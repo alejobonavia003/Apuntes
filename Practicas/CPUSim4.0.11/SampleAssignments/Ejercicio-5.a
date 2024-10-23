@@ -1,0 +1,16 @@
+; cuando ingresas un numero mayor a cero termina el programa
+;   si ingesas cero o numeros negativos se reinicia y luego, 
+; muestra por pantall el ultimo numero ingresado mas 5 
+
+
+Start:	read		; pedimos un numero en consola y lo guardamos en el acc
+        jmpm  Mayor  	; salta a done: si el acc es mayor a cero 
+        jump  Start     ; volvemos a repetir el ciclo
+Mayor:	
+        add_inm 5      ; le sumamos 5 al acc por direccionamiento inmediato
+        write           ; mostramos el contenido de acc por pantalla
+        stop  		; termina el programa
+
+
+
+

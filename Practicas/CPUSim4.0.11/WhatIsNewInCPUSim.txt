@@ -1,0 +1,122 @@
+What's new in version 4.0.11
+
+Bug fixes:
+--Fixed bug that prevented the assembler from properly evaluating some operands.
+
+Enhancements:
+--The first argument to a .data pseudo-instruction--namely, the number of cells
+to be filled with data--can now be written as an integer literal in decimal,
+hexadecimal (by preceding it with 0x), and in binary (by preceding it with 0b).
+--A warning message now appears if the user switches to debug mode without
+first setting the program counter in the Breakpoints tab of the Execute|Options dialog.
+
+-----------------------------------------------------------
+What's new in version 4.0.10
+
+Bug fixes:
+--Branch and Test microinstructions can now jump backward (using negative values) as well as forwards (using non-negative values).
+--A carry bit can now be specified for Increment microinstructions.
+--A .data pseudo-instruction of the form ".data 8 n" where the cell size is 1
+  byte and where n > 0 will now work.
+--You can now include punctuation (fields of 0 bits) in your assembly 
+  instructions.  These fields can be designated as optional, which means the
+  user can choose to leave them out when writing an assembly instruction.
+--In addition to optional punctuation fields, you can now include one
+  optional non-punctuation field (a field of 1 or more bits).
+--Duplicating existing fields now works correctly in the dialog for editing
+fields.
+--Rearranging the fields of an instruction so that their order is different in the assembly format from the instruction format now works.
+  
+
+Enhancements:
+--(none)
+
+-----------------------------------------------------------
+What's new in version 4.0.9
+
+Bug fixes:
+--Fixed bug in reading/writing MIF and Intel Hex files.
+--Minor bug fixes.
+
+Enhancements:
+--Break points are now implemented using a program counter register that the
+user specifies in the Execute|Options dialog.  At the start of each machine cycle,
+CPU Sim checks the address stored in the program counter to find the next instruction
+to be executed.  If that instruction has a break point set, CPU Sim halts.
+
+-----------------------------------------------------------
+What's new in version 4.0.8
+
+Bug fixes:
+--Fixed bug where CPU Sim didn't properly read/write MIF and Intel Hex files
+due to line endings.
+--Fixed bug when running CPU Sim in debug mode and stepping by microinstruction.
+It now properly outlines the registers and RAM cells that changed.
+--Fixed bug in the setting and clearing of the carry and overflow bits in
+the Arithmetic and Increment microinstructions.
+
+
+-----------------------------------------------------------
+What's new in version 4.0.7
+
+Bug fixes:
+--Fixed bug where CPU Sim crashes if the file specified on the command line
+with the -t flag doesn't exist
+--Fixed bug where the "Edit Fields..." button in the Edit Machine Instructions
+dialog caused a crash.
+--Fixed bug where the "Properties..." button in the Edit Modules dialog caused
+a crash.
+
+-----------------------------------------------------------
+What's new in version 4.0.6
+
+Enhancements:
+--Added flexibility to the operands of .data pseudo-instructions
+
+-----------------------------------------------------------
+What's new in version 4.0.5
+
+Bug fixes:
+--Fixed a bug where break points were not highlighted when reached nor 
+did stepping work correctly with the break points.
+
+-----------------------------------------------------------
+What's new in version 4.0.4
+
+Bug fixes:
+--Fixed a bug causing the buttons in the Debug toolbar to be disabled at inappropriate times.
+--Fixed a bug in setting the carry bit in arithmetic and increment microinstructions.
+--Fixed a bug in the TransferRtoR microinstruction when indexing is done from the right.
+
+-----------------------------------------------------------
+What's new in version 4.0.3
+
+Bug fixes:
+--Fixed a bug caused by changes in the JDK from 1.8.0_45 to 1.8.0_66
+--Replaced the CPUSim.jar file with folder of class files to clear problems with
+  images and links in the CPU Sim Help documents
+--The Mac version no longer uses the screen menubar and instead uses menubars
+  in the windows, due to a bug in JavaFX.
+
+-----------------------------------------------------------
+What's new in version 4.0.2
+
+Bug fixes:
+--A bug in backwards compatibility with old files has been fixed
+--A bug in use of Condition Bits has been fixed
+
+Enhancements:
+--Assembly language programs can now assign to a signed field any value that fits
+  in that field, including positive values that are too big for 2s complement
+  notation.
+
+-----------------------------------------------------------
+What's new in version 4.0.1
+
+Bug fixes:
+--Numerous small bugs.
+ 
+Enhancements:
+--All dialogs are now resizable and are more readable on screens with high DPI
+  values.
+--When displaying values in ASCII, non-printable characters now appear as boxes.

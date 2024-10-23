@@ -1,0 +1,26 @@
+; ingresas numeros pocitivos hasta que ingreses un negativo y sale luego,
+;   tiene dos salidas (outputs)
+;1) se suman todos los numeros menos el ultimo
+;2) se cuentan la cantidad de numeros ingresados contando el ultimos
+
+Start:	read		; pedimos un numero en consola y lo guardamos en el acc
+        jmpn  Done  	; salta a done: si el acc es menor a cero 
+	add   sum  	; Suma la etiqueta sum al acc
+	store sum 	; guarda lo que esta en el acc en la etiqueta sum
+        load  cont      ; movemos lo que hay en cont al acc
+        add   uno       ; le sumo uno al contador
+        store cont      ; guardo lo que esta en acc en
+        jump  Start     ; volvemos a repetir el ciclo
+Done:	load  sum 	; movemos lo que hay en sum al acc
+	write 	        ; mostramos por pantalla lo que hay en el acc
+        load  cont      ; movemos lo que hay en cont al acc
+        add   uno       ; le sumo uno al contador
+        store cont      ; guardo lo que esta en acc en  
+        write           ; mostramos por pantalla lo que hay en el acc
+	stop  		; termina el programa
+
+sum:	.data 2 0 ; etiqueta de 2 byte para la suma de todos los numeros pocitivos
+cont:   .data 2 0 ; etiqueta de 2 byte para la cantidad de numeros ingresados 
+uno:    .data 2 1 ; constante uno
+
+

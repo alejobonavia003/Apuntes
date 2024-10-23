@@ -1,0 +1,18 @@
+DEPTH = 128;
+WIDTH = 8;
+ADDRESS_RADIX = HEX;
+DATA_RADIX = BIN;
+CONTENT
+BEGIN
+
+00        :  00110000;              -- Start: read ; pedimos un numero en consola y lo guardamos en el acc
+01        :  00000000;              -- 
+02        :  11000000;              -- jmpm Mayor ; salta a done: si el acc es mayor a cero
+03        :  00000110;              -- 
+04        :  10010000;              -- jump Start ; volvemos a repetir el ciclo
+05        :  00000000;              -- 
+06        :  01010000;              -- add_inm 5 ; le sumamos 5 al acc por direccionamiento inmediato
+07        :  00000101;              -- 
+08        :  01000000;              -- write ; mostramos el contenido de acc por pantalla
+[09..7F]:  00000000;              -- 
+END;
