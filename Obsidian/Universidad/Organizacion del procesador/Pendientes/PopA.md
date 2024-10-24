@@ -1,0 +1,1 @@
+sirve para popear todos los registros y flags 

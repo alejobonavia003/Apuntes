@@ -13,9 +13,9 @@ me muevo a la carpeta del CPUsim y le man´do
 a) En su definicion de hardware tiene: 
 - `acc`: con un ancho de 16 bytes *un registro que lo usamos para almacenar el resultado de operaciones aritmetico-logicas*
 - `pc`: con un ancho de 12 bytes *es para almacenar la direccion de memoria de la proxima instruccion a ejecutar*
-- `mar`: con un ancho de 12 bytes *es para almacenar la direccion de memoria que vamos a leer o escribir*
+-  `mdr`:con un ancho de 12 bytes *es para almacenar la direccion de memoria que vamos a leer o escribir*
 - `ir`: con un ancho de 16 bytes *Contiene la instruccion que esta actualmente siendo ejecutada*
-- `mdr`: con un ancho de 16 bytes *almacena los datos que se leen de la memoria o que se van a escribir en ella*
+- `mar`: con un ancho de 16 bytes *almacena los datos que se leen de la memoria o que se van a escribir en ella*
 - `status`: con un ancho de 3 bytes *contiene todos los flags*
 - ***todos son registros***
 luego todos tienen una parte que dice initial value que en todos esta en cero y tambien tienen un check que dice read-onli desmarcados en todos explicame que significan estas ultimas dos cosas

@@ -1,0 +1,12 @@
+; cuando ingresas un numero mayor a cero termina el programa
+;   si ingesas cero o numeros negativos se reinicia y luego, 
+; muestra por pantall el ultimo numero ingresado mas 5 
+
+
+Start:		; pedimos un numero en consola y lo guardamos en el acc
+read
+          	stop	; termina el programa
+
+
+
+

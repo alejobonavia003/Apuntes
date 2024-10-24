@@ -41,6 +41,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Universidad/Organizacion del procesador/teoricos/Teorico 9.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Teorico 9"
+            }
+          },
+          {
+            "id": "6751a1f9485e8686",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Universidad/Organizacion del procesador/Cpusim.md",
                 "mode": "source",
                 "source": false
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -191,41 +205,46 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "f3f4914e0a152114",
+  "active": "6751a1f9485e8686",
   "lastOpenFiles": [
+    "Universidad/Organizacion del procesador/teoricos/Teorico 10.md",
+    "Universidad/Organizacion del procesador/screens/Tiempo efectivo de acceso Cache.png",
+    "Universidad/Organizacion del procesador/screens/ASOCIATIVA-Z-Cache.png",
+    "Universidad/Organizacion del procesador/screens/ASOSIATIVA COMPLETA.png",
+    "Universidad/Organizacion del procesador/screens/CACHE-DIRECTO.png",
+    "Universidad/Organizacion del procesador/screens/Memorias-y-velocidades.png",
+    "Universidad/Organizacion del procesador/screens/DDR.png",
+    "Universidad/Organizacion del procesador/screens/SDRAM.png",
+    "Universidad/Organizacion del procesador/screens/DRAM.png",
+    "EIP.md",
+    "Universidad/Organizacion del procesador/screens/bit-RAM.png",
+    "Universidad/Organizacion del procesador/screens/memorias.png",
+    "Universidad/Organizacion del procesador/teoricos/Teorico 9.md",
+    "Universidad/Organizacion del procesador/teoricos/Teorico 8.md",
     "Universidad/Organizacion del procesador/teoricos/Teorico 7.md",
-    "Universidad/Organizacion del procesador/Pendientes/PushA.md",
     "Universidad/Organizacion del procesador/Assembly/Subrutinas.md",
+    "Universidad/Organizacion del procesador/Pendientes/PushA.md",
+    "Universidad/Organizacion del procesador/Pendientes/PopA.md",
+    "Universidad/Organizacion del procesador/Pendientes/Leave.md",
     "Universidad/Organizacion del procesador/Pendientes/Enter.md",
+    "Universidad/Organizacion del procesador/Cpusim.md",
     "Universidad/Organizacion del procesador/Assembly/Esp.md",
     "Universidad/Organizacion del procesador/Assembly/Pop.md",
     "Universidad/Organizacion del procesador/Assembly/Push.md",
     "Como Estudiar.md",
     "Universidad/Organizacion del procesador/Assembly/EBP.md",
-    "Universidad/Organizacion del procesador/Pendientes/Leave.md",
     "Universidad/Organizacion del procesador/Assembly/EDI.md",
     "Universidad/Organizacion del procesador/Assembly/ESI.md",
-    "Universidad/Organizacion del procesador/screens/pila_z80.png",
     "Universidad/Organizacion del procesador/screens/pila_z80.png.crdownload",
     "Universidad/Organizacion del procesador/Assembly/Ret.md",
     "Universidad/Organizacion del procesador/Resumen.md",
     "Universidad/Comandos Assembly.md",
     "Universidad/Organizacion del procesador/Assembly/Call.md",
     "Universidad/Organizacion del procesador/teoricos/Teorico 6.md",
-    "Universidad/Organizacion del procesador/screens/IfElse.png",
-    "Universidad/Organizacion del procesador/teoricos/Teorico 8.md",
     "().md",
     "Universidad/Organizacion del procesador/teoricos/Teórico 3.md",
-    "Universidad/Organizacion del procesador/teoricos/Teorico 5.md",
-    "Universidad/Organizacion del procesador/screens/Instucciones-ISA.png",
-    "Universidad/Organizacion del procesador/Clase de repaso.md",
-    "Universidad/Organizacion del procesador/teoricos/Teorico 9.md",
-    "Universidad/Organizacion del procesador/Cpusim.md",
     "Sin nombre",
-    "Udemy/Screnss/JSON-examples.png",
     "Udemy/Screnss",
-    "Udemy/Apuntes/Axios.md",
-    "Microprogramas.md",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/package.json",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/index.js",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/license",
@@ -233,12 +252,6 @@
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/filelist/node_modules/minimatch/lib/path.js",
     "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/filelist/node_modules/minimatch/lib",
-    "Udemy/Apuntes/Screnss/JSON-examples.png",
-    "Udemy/Udemy-PracticoTeorico/Front end classes/cv/assets/Screenshot_20240424_005524_Gallery.jpg",
-    "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/tom4.png",
-    "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/tom3.png",
-    "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/tom2.png",
-    "Udemy-PracticoTeorico/poyects/Drum Kit Starting Files/images/tom1.png",
     "Sin título.canvas"
   ]
 }
