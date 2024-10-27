@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Universidad/Organizacion del procesador/Cpusim.md",
+                "file": "Universidad/Ingles/repaso para el parcial.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cpusim"
+              "title": "repaso para el parcial"
             }
           }
         ],
@@ -207,6 +207,8 @@
   },
   "active": "6751a1f9485e8686",
   "lastOpenFiles": [
+    "Universidad/Ingles/repaso para el parcial.md",
+    "Universidad/Organizacion del procesador/Cpusim.md",
     "Universidad/Organizacion del procesador/teoricos/Teorico 10.md",
     "Universidad/Organizacion del procesador/screens/Tiempo efectivo de acceso Cache.png",
     "Universidad/Organizacion del procesador/screens/ASOCIATIVA-Z-Cache.png",
@@ -227,7 +229,6 @@
     "Universidad/Organizacion del procesador/Pendientes/PopA.md",
     "Universidad/Organizacion del procesador/Pendientes/Leave.md",
     "Universidad/Organizacion del procesador/Pendientes/Enter.md",
-    "Universidad/Organizacion del procesador/Cpusim.md",
     "Universidad/Organizacion del procesador/Assembly/Esp.md",
     "Universidad/Organizacion del procesador/Assembly/Pop.md",
     "Universidad/Organizacion del procesador/Assembly/Push.md",
