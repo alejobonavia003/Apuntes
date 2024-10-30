@@ -57,11 +57,15 @@ Tiene una celda por bloque que mantiene el TAG del bloque que reside actualmente
 
 ## Memoria Cache - Cómo para determinar si la dirección requerida está en Cache (Asociativa Completa)
 [[Tareas a liquidar]]
+**Esta ta patra**
 
 ## Memoria Cache - Cómo para determinar si la dirección requerida está en Cache (Asociativa por Conjuntos)
 [[Tareas a liquidar]]
 
-## Tipos de remplazo de cache cuando esta lleno y hay que pedir un bloque nuevo a la RAM
+
+## Tipos de remplazo de cache
+**cuando esta lleno y hay que pedir un bloque nuevo a la RAM**
+
 • **LRU (Least Recently Used)**: el más antiguo debe ser reemplazado.
 • **FIFO (First In First Out)**: comportamiento de cola.
 • **RADOM**: se elige uno aleatoriamente.
@@ -73,4 +77,12 @@ Tiene una celda por bloque que mantiene el TAG del bloque que reside actualmente
 
 #### Memoria Cache - Políticas de escritura
 • **Write through**: cuando se modifica el valor en la memoria cache, se propaga y se modifica en la memoria principal.
-	• **Write back**: sólo se modifica en la memoria caché hasta que el Bloque se marcado como víctima para ser reemplazado, en ese momento se copia todo el Bloque a la memoria
+• **Write back**: sólo se modifica en la memoria caché hasta que el Bloque se marcado como víctima para ser reemplazado, en ese momento se copia todo el Bloque a la memoria
+
+
+**Repaso.**
+la idea de cache es principio de localidad: si usamos algo lo mas probable es que lo proximo que usemos este cerca 
+	Entonces la cache es una memoria muy rapida mas que la ram y esta entre la ram y el procesador entonces como hay muchas chances de que la proxima instruccion que usemos esten cercas si guardamos las instrucciones cercanas, 
+	*si una memoria anda por lo gb la cache anda por los mb*
+
+
