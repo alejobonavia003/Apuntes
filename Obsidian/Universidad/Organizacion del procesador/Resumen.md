@@ -24,4 +24,6 @@
 
 ![[Clase de repaso]]
 
-![[Teorico 7]]![[Teorico 8]]
+![[Teorico 7]]![[Teorico 8]]![[Teorico 9]]
+![[Teorico 10]]
+![[Teorico 11]]

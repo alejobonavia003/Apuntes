@@ -25,5 +25,11 @@ Buscar el problema de fragmentacion interna [[Tareas a liquidar]] basicamente tr
 **Ta todo hay que resumir teoricos bien con mis palabras y no dejar ni un ejercicio para hacer** 
 
 
+tamaño de la palabra = los bits que necesitan los words 
 
+sin son 32 palabras por bloque son 2⁵ y el exoponente de la base (5) son los bits que necesitas para repreceentar cada uno 
+
+planteamos la memoria principal y la memoria caache y hambos tienen la misma cantidad de bits ocupados por palabras 
+
+en **directa** solo tiene palabra y bloque
 
