@@ -29,4 +29,14 @@ _Cuando una api nos pide autenticacion en postman seleccionamos la autenticacion
 - *Sin seguridad*: no necesitamos nada, simplemente hacemos peticiones a lo loco, pero con cierta limitacion ej: 100 peticiones cada 15 minutos. 
 - *Seguridad basica*: Para esta necesitamos registrarnos, normalmente con una peticion `POST` con un endpoint /register y enviando un archivo `JSON` ["username":"alejo", "pasword":"C"]
 - *Autenticacion por API-KEY*: para esto vamos a tener que obtener una APIKey como nos diga la documentacion y luego usaremos el metodo de autenticacion APIKEY para hacer una peticion `GET` a la api
-- *Token de autenticacion*: Es una forma de combinar los dos metodos anteriores. A partir de un username y un password generamos un token personal que lo usamos para acceder a las peticiones. 
+- *Token de autenticacion(bearer)*: Es una forma de combinar los dos metodos anteriores. A partir de un username y un password generamos un token personal que lo usamos para acceder a las peticiones. 
+
+
+**una forma de configurar la autenticacion con codigo (bearer)**:
+``` js
+const yourBearerToken = "c66e7806-c692-492b-85a9-b6f2ed50b20c";
+const config = {headers: { Authorization: `Bearer ${yourBearerToken}` }
+};
+```
+Luego usamos config como segundo parametro en la funcion `.get()` 
+`const result = await axios.get(API_URL + "/secrets/" + searchId, config);`

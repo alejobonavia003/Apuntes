@@ -28,4 +28,8 @@ axios.post('https://jsonplaceholder.typicode.com/posts', {
   });
 
 ```
+	Estas funciones .post .then y .catch remplazan el try
 
+#### Como axios usa try
+normalmente podriamos usar el try de esta manera en por ejemplo el metodo get![[try.png]]
+pero axios prefiere que usemos las funciones de su biblioteca de esta manera ![[try-axios.png]]
