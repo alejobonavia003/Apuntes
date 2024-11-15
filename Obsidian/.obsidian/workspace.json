@@ -1,111 +1,41 @@
 {
   "main": {
-    "id": "6d657247107ecd04",
+    "id": "012943add2e85ba1",
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "a1312852d4f2ffc9",
+        "id": "4c69196742224854",
         "type": "tabs",
         "children": [
           {
-            "id": "e7f8218c968ec289",
+            "id": "46933229f56e239e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Universidad/Organizacion del procesador/Cpusim.md",
+                "file": "Readme - proyecto section 29.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cpusim"
-            }
-          },
-          {
-            "id": "002e864c7e500d24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Precentacion del proyecto.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Precentacion del proyecto"
-            }
-          },
-          {
-            "id": "58c73016ee9319c6",
-=======
-        "id": "993a6759caddd183",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d4401c62349f7717",
->>>>>>> f20db27b49a9355aaa5c21d4a5e5448585079dfd
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Udemy/Apuntes/HTTP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HTTP"
-            }
-<<<<<<< HEAD
-          }
-        ],
-        "currentTab": 1
-=======
-          },
-          {
-            "id": "b6b77fdd104df0ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Udemy/Apuntes/Apis.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Apis"
-            }
-          },
-          {
-            "id": "80eb6406a5fba41f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Udemy/Apuntes/Axios.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Axios"
+              "title": "Readme - proyecto section 29"
             }
           }
         ]
->>>>>>> f20db27b49a9355aaa5c21d4a5e5448585079dfd
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "9e64e5acb5a2e710",
+    "id": "de1e5b16144cfe37",
     "type": "split",
     "children": [
       {
-        "id": "814e684b031935a7",
+        "id": "f3bd09888a66c2c7",
         "type": "tabs",
         "children": [
           {
-            "id": "29fa98d2b1f821f0",
+            "id": "1572c997e3bed034",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -117,7 +47,7 @@
             }
           },
           {
-            "id": "ebb4f33eb0d4c59c",
+            "id": "c6fc936c87bbaec4",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -134,7 +64,7 @@
             }
           },
           {
-            "id": "9fbeccd138bd7694",
+            "id": "be4d0b0be7299620",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -147,23 +77,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 300
   },
   "right": {
-    "id": "224d45ec03180b82",
+    "id": "719f1975274d211f",
     "type": "split",
     "children": [
       {
-        "id": "11786706d04e3969",
+        "id": "ca231fa4bfa31793",
         "type": "tabs",
         "children": [
           {
-            "id": "bc82ac083dff32e0",
+            "id": "b61ea55da6c45be4",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Universidad/Organizacion del procesador/Pendientes/Enter.md",
+                "file": "Readme - proyecto section 29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,25 +103,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Enter"
+              "title": "Enlaces entrantes de Readme - proyecto section 29"
             }
           },
           {
-            "id": "2a750269e815bf5f",
+            "id": "b5c2f88ac9f81353",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Universidad/Organizacion del procesador/Pendientes/Enter.md",
+                "file": "Readme - proyecto section 29.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Enter"
+              "title": "Enlaces salientes de Readme - proyecto section 29"
             }
           },
           {
-            "id": "00a8a9c8a7d5bf41",
+            "id": "c3e2b473b034e50c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -204,15 +134,15 @@
             }
           },
           {
-            "id": "4a325a3b5d997d7c",
+            "id": "c8ed35929d8ab2ba",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Universidad/Organizacion del procesador/Pendientes/Enter.md"
+                "file": "Readme - proyecto section 29.md"
               },
               "icon": "lucide-list",
-              "title": "Esquema de Enter"
+              "title": "Esquema de Readme - proyecto section 29"
             }
           }
         ]
@@ -232,89 +162,8 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-<<<<<<< HEAD
-  "active": "002e864c7e500d24",
+  "active": "46933229f56e239e",
   "lastOpenFiles": [
-    "Universidad/Organizacion del procesador/teoricos/Teorico 7.md",
-    "Universidad/Organizacion del procesador/teoricos/Teorico 6.md",
-    "Universidad/Organizacion del procesador/teoricos/Teórico 2.md",
-    "Universidad/Organizacion del procesador/teoricos/Teórico 3.md",
-    "Universidad/Organizacion del procesador/teoricos/Teorico 5.md",
-    "Precentacion del proyecto.md",
-    "precentacion.md",
-    "Universidad/Organizacion del procesador/Cpusim.md",
-    "Universidad/Ingles/repaso para el parcial.md",
-=======
-  "active": "d4401c62349f7717",
-  "lastOpenFiles": [
-    "Udemy/Apuntes/Resumen.md",
-    "Udemy/Apuntes/Apis.md",
-    "Udemy/Apuntes/Axios.md",
-    "Udemy/Apuntes/Screnss/try.png",
-    "Udemy/Apuntes/Screnss/try-axios.png",
-    "Udemy/Apuntes/HTTP.md",
-    "Udemy/Apuntes/Definiciones comunes.md",
-    "Udemy/Apuntes/JSON.md",
-    "Trabajo/Conceptos que deberia saber y no se.md",
-    "Udemy/Apuntes/NPM.md",
-    "Udemy/Apuntes/EJS.md",
->>>>>>> f20db27b49a9355aaa5c21d4a5e5448585079dfd
-    "Universidad/Organizacion del procesador/teoricos/Teorico 10.md",
-    "Trabajo/Planes de mantenimiento Bellarosatta.md",
-    "Trabajo/Plan de escape de deudas.md",
-    "Tareas semanales/Tareas a liquidar.md",
-    "Tareas semanales/Trabajo.md",
-    "Tareas semanales/Universidad.md",
-    "Universidad/Organizacion del procesador/DUDAS A CONSULTAR SI O SI.md",
-    "Universidad/Organizacion del procesador/Cpusim.md",
-    "Universidad/Organizacion del procesador/Comandos Assembly.md",
-    "Universidad/Organizacion del procesador/Todo lo importante para el parcial.md",
-    "Universidad/Organizacion del procesador/Clase de repaso.md",
-    "Universidad/Organizacion del procesador/teoricos/Teorico 11.md",
-    "Universidad/Organizacion del procesador/Memoria-Virtual.png.md",
-    "Universidad/Organizacion del procesador/Resumen.md",
-    "Universidad/Organizacion del procesador/teoricos/Teórico 1.md",
-    "Universidad/Organizacion del procesador/teoricos/Teorico 7.md",
-    "Universidad/Organizacion del procesador/screens/Tiempo efectivo de acceso Cache.png",
-    "Universidad/Organizacion del procesador/screens/ASOCIATIVA-Z-Cache.png",
-    "Universidad/Organizacion del procesador/screens/ASOSIATIVA COMPLETA.png",
-    "Universidad/Organizacion del procesador/screens/CACHE-DIRECTO.png",
-    "Universidad/Organizacion del procesador/screens/Memorias-y-velocidades.png",
-    "Universidad/Organizacion del procesador/screens/DDR.png",
-    "Universidad/Organizacion del procesador/screens/SDRAM.png",
-    "Universidad/Organizacion del procesador/screens/DRAM.png",
-<<<<<<< HEAD
-    "EIP.md",
-    "Universidad/Organizacion del procesador/screens/bit-RAM.png",
-    "Universidad/Organizacion del procesador/screens/memorias.png",
-    "Universidad/Organizacion del procesador/teoricos/Teorico 9.md",
-    "Universidad/Organizacion del procesador/teoricos/Teorico 8.md",
-    "Universidad/Organizacion del procesador/Assembly/Subrutinas.md",
-    "Universidad/Organizacion del procesador/Pendientes/PushA.md",
-    "Universidad/Organizacion del procesador/Pendientes/PopA.md",
-    "Universidad/Organizacion del procesador/Pendientes/Leave.md",
-    "Universidad/Organizacion del procesador/Pendientes/Enter.md",
-    "Universidad/Organizacion del procesador/Assembly/Esp.md",
-    "Universidad/Organizacion del procesador/Assembly/Pop.md",
-    "Universidad/Organizacion del procesador/Assembly/Push.md",
-    "Como Estudiar.md",
-    "Universidad/Organizacion del procesador/Assembly/EBP.md",
-    "Universidad/Organizacion del procesador/Assembly/EDI.md",
-    "Universidad/Organizacion del procesador/Assembly/ESI.md",
-    "Universidad/Organizacion del procesador/screens/pila_z80.png.crdownload",
-    "Universidad/Organizacion del procesador/Assembly/Ret.md",
-=======
-    "Universidad/Organizacion del procesador/screens/pila_z80.png.crdownload",
->>>>>>> f20db27b49a9355aaa5c21d4a5e5448585079dfd
-    "Sin nombre",
-    "Udemy/Screnss",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/package.json",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/index.js",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/license",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag/index.d.ts",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/has-flag",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/filelist/node_modules/minimatch/lib/path.js",
-    "Udemy/Udemy-PracticoTeorico/Back end classses/5.2 JSON/node_modules/filelist/node_modules/minimatch/lib",
-    "Sin título.canvas"
+    "Readme - proyecto section 29.md"
   ]
 }

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bonavientos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Titan+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1>BonaVientos</h1>
+  </header>
+
+  <main class="main-content">
+    <section class="weather-info">
+      <h2>Datos Meteorológicos en <%= datosMeteorologicos.name %></h2>
+      <p>
+        <strong>Temperaturas:</strong> Máx: <%= datosMeteorologicos.main.temp_max %>°C, 
+        Mín: <%= datosMeteorologicos.main.temp_min %>°C, 
+        Actual: <%= datosMeteorologicos.main.temp %>°C, 
+        Sensación térmica: <%= datosMeteorologicos.main.feels_like %>°C.
+      </p>
+      <p><strong>Dirección del viento:</strong> <%= direcciondelviento %></p>
+      <p><strong>Velocidad del viento:</strong> <%= Math.round((datosMeteorologicos.wind.speed) * 3.6) %> km/h</p>
+    </section>
+
+    <section class="location-form">
+      <h2>Selecciona tu origen y destino</h2>
+      <form action="/" id="form" class="form" method="POST">
+        <div class="form-group">
+          <label for="origin">Origen</label>
+          <select id="origin" name="origen" class="form-select">
+            <option value="" disabled selected>Selecciona</option>
+            <option value="centro">Centro</option>
+            <option value="universidad">Universidad</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="destination">Destino</label>
+          <select id="destination" name="destino" class="form-select">
+            <option value="" disabled selected>Selecciona</option>
+            <option value="centro">Centro</option>
+            <option value="universidad">Universidad</option>
+          </select>
+        </div>
+        <button type="submit" class="form-submit">Calcular</button>
+      </form>
+      <% if (locals.fOnf) { %>
+        <h3><%= fOnf %></h3>
+      <% } %>      
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 BonaVientos. Todos los derechos reservados.</p>
+  </footer>
+</body>
+
+</html>
