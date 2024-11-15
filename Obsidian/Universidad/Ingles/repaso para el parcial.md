@@ -46,6 +46,36 @@
    2. structuras algebraicas: se usa en gran medida en la biologia y quimica  
    3. teoria spectral: es aplicada en la mecanica cuantica
 4. es una teoria que se enfoca en el estudio de espacios vectoriales 
-5. 
+5. a. cumple la funcion de un conector de consecuencia 
+   b. menciona que es necesario entender criterios de operadores y funciones utilizadas y modelarlo con descripciones de la vida real 
+   2. a) for example 
+   3. b) f(x) 
+   4. c) ejemplifica una funcion matematica con alguna ocurrencia en la vida real que pueda ser proporcionalmente a F(x) 
+6. 
+   a. El libro esta dirijido a matematicos, matematicos computacionales, y matematicos del area de la investigacion  
+   b. Esta escrito para aquellos que tienen conocimientos de calculo clasico y analisis matematicos 
+   c. tiene dos capitulos dedicados a los que no tienen experiencia previa en los topicos 
+   d. los autores se hacen precentes haciendo fuerte enfasis en base teorica 
+6. hace referencia a el analisis funcional 
+
+**Parcial viejo**
+1) a. titulo: computer security Threats
+   editorial: IntechOpen 
+   lugar de publicacion: london, United Kingdom
+   ISBN: 978-1-83962-381-3
+   Fecha de publicacion: 2020
+   b. tiene un tipo de licencia copyrigth pero algunos capitulos y/o temas tiene Creative comons 
+
+| Palabra/Frase en ingles | Español          |
+| ----------------------- | ---------------- |
+| pattern                 | *Patrones*       |
+| asset                   | *recurso*        |
+| devising                | *ideando*        |
+| menaces                 | *amenazas*       |
+| working                 | *funcionamiento* |
+| challenges              | *desafios*       |
+1) cual fue el motivo principal o el disparador por el que escribio este libro y que tipo de informacion precenta .
+   
+
 
 

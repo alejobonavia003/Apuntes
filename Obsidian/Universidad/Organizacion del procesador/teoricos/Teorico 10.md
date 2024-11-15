@@ -57,11 +57,15 @@ Tiene una celda por bloque que mantiene el TAG del bloque que reside actualmente
 
 ## Memoria Cache - Cómo para determinar si la dirección requerida está en Cache (Asociativa Completa)
 [[Tareas a liquidar]]
+**Esta ta patra**
 
 ## Memoria Cache - Cómo para determinar si la dirección requerida está en Cache (Asociativa por Conjuntos)
 [[Tareas a liquidar]]
 
-## Tipos de remplazo de cache cuando esta lleno y hay que pedir un bloque nuevo a la RAM
+
+## Tipos de remplazo de cache
+**cuando esta lleno y hay que pedir un bloque nuevo a la RAM**
+
 • **LRU (Least Recently Used)**: el más antiguo debe ser reemplazado.
 • **FIFO (First In First Out)**: comportamiento de cola.
 • **RADOM**: se elige uno aleatoriamente.
@@ -69,8 +73,16 @@ Tiene una celda por bloque que mantiene el TAG del bloque que reside actualmente
 ### Como se calcula el tiepo de acceso efectivo 
 ![[Tiempo efectivo de acceso Cache.png]]
 
-# ***LOS TAMAÑOS DE BLOQUES SON SIEMPRE POTENCIA DE DOS***
-
 #### Memoria Cache - Políticas de escritura
 • **Write through**: cuando se modifica el valor en la memoria cache, se propaga y se modifica en la memoria principal.
-	• **Write back**: sólo se modifica en la memoria caché hasta que el Bloque se marcado como víctima para ser reemplazado, en ese momento se copia todo el Bloque a la memoria
+• **Write back**: sólo se modifica en la memoria caché hasta que el Bloque se marcado como víctima para ser reemplazado, en ese momento se copia todo el Bloque a la memoria
+
+## IMPORTANTE
+• ***Hit***: Los datos requeridos de la memoria residen en la memoria (niveles más altos).
+• ***Miss***: Los datos requeridos de la memoria NO residen en la memoria (niveles más altos).
+• ***Hit rate***: Porcentaje de Hits.
+• ***Miss rate***: Porcentaje de Miss.
+• ***Hit time:*** Tiempo de acceso cuando los datos residen en la memoria.
+• ***Miss Penalty*:** Tiempo adicional requerido para el acceso cuando losdatos NO residen en la memoria.
+
+

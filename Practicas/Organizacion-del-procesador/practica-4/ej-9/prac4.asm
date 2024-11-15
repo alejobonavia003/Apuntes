@@ -1,7 +1,7 @@
 %include "./asm_io.inc"
 
 segment .data 
-    lista1 dd 10,2,3,4,50,6,7,8,9,0
+    lista1 dd 10,2,300,4,50,6,7,80,9,0
 
 section .text
     global CMAIN
