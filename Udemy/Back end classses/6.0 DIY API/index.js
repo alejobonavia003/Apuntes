@@ -20,9 +20,13 @@ app.get("/jokes/:id", (req, res) => {
   const id = parseInt(req.params.id);
   let joke; 
   for(let i=0;i<jokes.length;i++){
+    if(jokes[i] !== undefined){
     if(jokes[i].id === id){
       joke = jokes[i];
     }
+  } else {
+    joke = ("this number id is not exist");
+  }
   }
   res.json(joke);
 });
@@ -39,17 +43,70 @@ app.get("/filter", (req, res) => {
 //4. POST a new joke
 
 app.post("/jokes", (req, res) => {
-  const newJoke = req.body;
-  console.log(newJoke);
+  const joketext = req.body.text;
+  const joketype = req.body.type;
+  const jokeId = jokes.length+1;
+
+  jokes.push({"id": jokeId, "jokeText": joketext, "jokeType": joketype,});
+  res.json(jokes[(jokes.length)-1]);
 });
 
 //5. PUT a joke
 
+app.put("/jokes/:id", (req, res) => {
+  const id = parseInt(req.params.id);
+  const joketext = req.body.text;
+  const joketype = req.body.type;
+
+  for (let i=0; i<jokes.length; i++){
+    if(jokes[i].id == id){
+      jokes[i].jokeText = joketext;
+      jokes[i].jokeType = joketype;
+    }
+  }
+  res.json(jokes[(id)-1]);
+});
+
 //6. PATCH a joke
+
+app.patch("/jokes/:id", (req, res) => {
+  const id = parseInt(req.params.id);
+  const joketext = req.body.text;
+  const joketype = req.body.type; 
+
+  console.log(joketext);
+
+  for (let i=0; i<jokes.length; i++){
+    if(jokes[i].id == id){
+      if(joketext !== undefined){
+      jokes[i].jokeText = joketext;
+      }
+      if (joketype !== undefined) {
+      jokes[i].jokeType = joketype;
+      }
+    }
+  }
+  res.json(jokes[(id)-1]);
+});
+
 
 //7. DELETE Specific joke
 
+app.delete("/jokes/:id", (req, res) => {
+  const id = req.params.id;
+
+  for(let i=0; i<jokes.length; i++){
+    if(jokes[i].id == id){
+      delete jokes[i];
+    }
+  }
+console.log(jokes[id-1]);
+res.sendStatus(200);
+});
+
 //8. DELETE All jokes
+
+//Fin ....
 
 app.listen(port, () => {
   console.log(`Successfully started server on port ${port}.`);

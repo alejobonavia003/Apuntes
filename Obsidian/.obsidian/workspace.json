@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Udemy/Apuntes/RESTful-API.md",
+                "file": "Udemy/Apuntes/HTTP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RESTful-API"
+              "title": "HTTP"
             }
           }
         ],
