@@ -96,15 +96,29 @@ app.delete("/jokes/:id", (req, res) => {
   const id = req.params.id;
 
   for(let i=0; i<jokes.length; i++){
+    if(jokes[i] !== undefined){
     if(jokes[i].id == id){
       delete jokes[i];
     }
+  } else {
+    res.status(404).json({error: `this id: ${id}  do not exist`})
+  }
   }
 console.log(jokes[id-1]);
 res.sendStatus(200);
 });
 
 //8. DELETE All jokes
+
+app.delete("/all", (req, res) => {
+  const api_key = req.query.Key;
+  if (api_key == masterKey){
+    jokes = [];
+  }else {
+    res.status(404).json({error: "this api_key is stupid"})
+  }
+  res.sendStatus(200);
+});
 
 //Fin ....
 
