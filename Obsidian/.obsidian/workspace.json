@@ -34,9 +34,37 @@
               "icon": "lucide-file",
               "title": "HTTP"
             }
+          },
+          {
+            "id": "7eb81687e118e3e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Universidad/Finales/Final de Calculo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Final de Calculo"
+            }
+          },
+          {
+            "id": "e5c02a2a788dc9bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Udemy/Base de datos/SQL y noSQL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQL y noSQL"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -177,8 +205,14 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "3a82a91ec6af0dd7",
+  "active": "e5c02a2a788dc9bd",
   "lastOpenFiles": [
+    "Universidad/Finales/Final de Calculo.md",
+    "Udemy/Base de datos/SQL y noSQL.md",
+    "Udemy/Base de datos",
+    "Precentacion del proyecto.md",
+    "Universidad/Finales",
+    "Udemy/Apuntes/HTTP.md",
     "Udemy/Apuntes/Axios.md",
     "Udemy/Apuntes/RESTful-API.md",
     "Udemy/- proyecto section 29.md"
