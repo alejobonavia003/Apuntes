@@ -1,0 +1,1 @@
+`.trin();`: Elimina todos los espacios de una cadena.
