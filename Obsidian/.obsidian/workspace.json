@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Udemy/Base de datos/PostergeSQL.md",
+                "file": "Udemy/Base de datos/SQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PostergeSQL"
+              "title": "SQL"
             }
           }
         ],
@@ -179,10 +179,10 @@
   },
   "active": "34a011c8b0ff5421",
   "lastOpenFiles": [
+    "Udemy/Base de datos/PostergeSQL.md",
     "greenWeed.md",
     "Universidad/Organizacion del procesador/Circuitos/Flips-Flops.md",
     "Universidad/Organizacion del procesador/Circuitos/DECODIFICADOR.md",
-    "Udemy/Base de datos/PostergeSQL.md",
     "Udemy/Apuntes/Screnss/Relacion muchos a uno.png",
     "Udemy/Apuntes/Screnss/Relacion-uno a uno.png",
     "Udemy/Base de datos/SQL.md",

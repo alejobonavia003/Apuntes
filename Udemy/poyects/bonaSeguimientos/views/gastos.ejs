@@ -11,28 +11,29 @@
         <h1 class="text-center mb-4">Registro de Gastos</h1>
 
         <!-- Formulario de Registro de Gastos -->
-        <form id="registroGastos" class="bg-white p-4 rounded shadow-sm mb-4">
+        <form id="registroGastos" action="/newGasto" method="POST" class="bg-white p-4 rounded shadow-sm mb-4">
             <div class="mb-3">
                 <label for="concepto" class="form-label">Concepto del Gasto</label>
-                <input type="text" id="concepto" class="form-control" placeholder="Ej. Compra de Fertilizante" required>
+                <input name="concepto" type="text" id="concepto" class="form-control" placeholder="Ej. Compra de Fertilizante" required>
             </div>
 
             <div class="mb-3">
                 <label for="monto" class="form-label">Monto</label>
-                <input type="number" id="monto" class="form-control" placeholder="Ej. 1000" required>
+                <input name="monto" type="number" id="monto" class="form-control" placeholder="Ej. 1000" required>
             </div>
 
             <div class="mb-3">
                 <label for="responsable" class="form-label">Responsable del Gasto</label>
-                <input type="text" id="responsable" class="form-control" placeholder="Ej. Juan Pérez" required>
+                <input name="responsable" type="text" id="responsable" class="form-control" placeholder="Ej. Juan Pérez" required>
             </div>
 
             <div class="mb-3">
                 <label for="fechaGasto" class="form-label">Fecha del Gasto</label>
-                <input type="date" id="fechaGasto" class="form-control" required>
+                <input name="fechaGasto" type="date" id="fechaGasto" class="form-control" required>
             </div>
 
-            <button type="submit" class="btn btn-success w-100">Registrar Gasto</button>
+
+            <input type="submit" class="btn btn-success w-100" value="Registrar Gasto"></input>
         </form>
 
         <!-- Tabla de Gastos -->
@@ -47,61 +48,20 @@
                 </tr>
             </thead>
             <tbody id="tablaGastos">
-                <!-- Los registros de los gastos se agregarán aquí dinámicamente -->
+                <% gastos.forEach(gasto => { %>
+                    <tr>
+                        <td><%= gasto.concepto %></td>
+                        <td>$<%= gasto.monto %></td>
+                        <td><%= gasto.responsable %></td>
+                        <td><%= gasto.fecha.toISOString().split('T')[0] %></td>
+                    </tr>
+                <% }); %>
             </tbody>
+            
         </table>
     </div>
 
-    <script>
-        // Arreglo donde se guardarán los gastos registrados (esto simula una base de datos)
-        const gastos = [];
-
-        // Función para agregar un gasto a la lista
-        function agregarGasto(concepto, monto, responsable, fechaGasto) {
-            gastos.push({ concepto, monto, responsable, fechaGasto });
-
-            // Actualizar la tabla con el nuevo gasto
-            actualizarTablaGastos();
-        }
-
-        // Función para actualizar la tabla de gastos
-        function actualizarTablaGastos() {
-            const tablaGastos = document.getElementById('tablaGastos');
-            tablaGastos.innerHTML = ''; // Limpiar la tabla antes de actualizarla
-
-            gastos.forEach(gasto => {
-                const fila = document.createElement('tr');
-
-                fila.innerHTML = `
-                    <td>${gasto.concepto}</td>
-                    <td>$${gasto.monto}</td>
-                    <td>${gasto.responsable}</td>
-                    <td>${gasto.fechaGasto}</td>
-                `;
-                
-                tablaGastos.appendChild(fila);
-            });
-        }
-
-        // Manejar el envío del formulario
-        const formulario = document.getElementById('registroGastos');
-        formulario.addEventListener('submit', function(event) {
-            event.preventDefault(); // Evitar el envío del formulario
-
-            // Obtener los valores del formulario
-            const concepto = document.getElementById('concepto').value;
-            const monto = parseFloat(document.getElementById('monto').value);
-            const responsable = document.getElementById('responsable').value;
-            const fechaGasto = document.getElementById('fechaGasto').value;
-
-            // Agregar el gasto a la lista
-            agregarGasto(concepto, monto, responsable, fechaGasto);
-
-            // Limpiar los campos del formulario
-            formulario.reset();
-        });
-    </script>
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

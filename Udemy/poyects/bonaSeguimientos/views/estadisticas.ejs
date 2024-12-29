@@ -33,43 +33,36 @@
     </div>
 
     <script>
-        // Datos de ejemplo (estos deberían venir de la base de datos)
-        const registros = [
-            { fecha: '2024-12-20', riego: 'Sí', fertilizacion: 'No', anomalias: 'Hojas amarillas' },
-            { fecha: '2024-12-19', riego: 'No', fertilizacion: 'Sí', anomalias: '' },
-            { fecha: '2024-12-18', riego: 'Sí', fertilizacion: 'Sí', anomalias: 'Hojas secas' },
-            { fecha: '2024-12-17', riego: 'Sí', fertilizacion: 'No', anomalias: '' },
-            { fecha: '2024-12-16', riego: 'Sí', fertilizacion: 'Sí', anomalias: '' }
-        ];
-
-        // Contar el número de "Sí" y "No" para riego y fertilización
+        // Obtener los registros enviados desde el servidor
+        const registros = <%- JSON.stringify(registros) %>;
+    
+        // Procesar los datos dinámicos
         const riegoData = registros.reduce((acc, registro) => {
-            if (registro.riego === 'Sí') acc['Sí']++;
-            else acc['No']++;
+            if (registro.riego === 'true') acc['true']++;
+            else acc['false']++;
             return acc;
-        }, { 'Sí': 0, 'No': 0 });
-
+        }, { 'true': 0, 'false': 0 });
+    
         const fertilizacionData = registros.reduce((acc, registro) => {
-            if (registro.fertilizacion === 'Sí') acc['Sí']++;
-            else acc['No']++;
+            if (registro.fertilizacion === 'true') acc['true']++;
+            else acc['false']++;
             return acc;
-        }, { 'Sí': 0, 'No': 0 });
-
-        // Contar anomalías
+        }, { 'true': 0, 'false': 0 });
+    
         const anomaliasData = registros.reduce((acc, registro) => {
             if (registro.anomalias) acc['Con Anomalías']++;
             else acc['Sin Anomalías']++;
             return acc;
         }, { 'Con Anomalías': 0, 'Sin Anomalías': 0 });
-
-        // Configuración del gráfico de riego
+    
+        // Configuración de los gráficos (igual que antes)
         const ctxRiego = document.getElementById('graficoRiego').getContext('2d');
         new Chart(ctxRiego, {
             type: 'pie',
             data: {
                 labels: ['Riego Sí', 'Riego No'],
                 datasets: [{
-                    data: [riegoData['Sí'], riegoData['No']],
+                    data: [riegoData['true'], riegoData['false']],
                     backgroundColor: ['#36A2EB', '#FF6384'],
                     hoverOffset: 4
                 }]
@@ -90,15 +83,14 @@
                 }
             }
         });
-
-        // Configuración del gráfico de fertilización
+    
         const ctxFertilizacion = document.getElementById('graficoFertilizacion').getContext('2d');
         new Chart(ctxFertilizacion, {
             type: 'pie',
             data: {
                 labels: ['Fertilización Sí', 'Fertilización No'],
                 datasets: [{
-                    data: [fertilizacionData['Sí'], fertilizacionData['No']],
+                    data: [fertilizacionData['true'], fertilizacionData['false']],
                     backgroundColor: ['#FFCE56', '#FF6384'],
                     hoverOffset: 4
                 }]
@@ -119,8 +111,7 @@
                 }
             }
         });
-
-        // Configuración del gráfico de anomalías
+    
         const ctxAnomalias = document.getElementById('graficoAnomalias').getContext('2d');
         new Chart(ctxAnomalias, {
             type: 'pie',
@@ -149,5 +140,6 @@
             }
         });
     </script>
+    
 </body>
 </html>
