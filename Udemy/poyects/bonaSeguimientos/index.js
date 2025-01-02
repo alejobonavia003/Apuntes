@@ -4,16 +4,20 @@ import axios from "axios";
 import bodyParser from "body-parser";
 import pg from "pg";
 
+
+
 const app = express(); // Definimos la app
 const port = 3000; // Definimos el puerto
 
 
+
 //Nos conectamos a la base de datos
 const db = new pg.Client({
-  user: "postgres",
-  host: "localhost",
+  connectionString: 'postgresql://alejobonavia003:oNCSdunLYESiuE6KKsz1XMnYCtETLek1@dpg-ctpfu223esus73dhjstg-a/green_db',
+  user: "alejobonavia003",
+  host: "dpg-ctpfu223esus73dhjstg-a",
   database: "green_db",
-  password: "2836856773Ale?",
+  password: "oNCSdunLYESiuE6KKsz1XMnYCtETLek1",
   port: 5432,
 });
 db.connect();
@@ -24,12 +28,19 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Carpeta pública para estilos y fotos
 app.use(express.static("public"));
-
+//app.use('/public', express.static(path.join(__dirname, 'public')));
 
 // Rutas
 app.get("/", async (req, res) => {
-    res.render("index.ejs");
+    const imagenes = [
+        "/public/Images/juntas.jpeg",  // Ruta de la imagen 1
+        "//public/Images/gelato 2024-12-28 at 20.43.41.jpeg",  // Ruta de la imagen 2
+        "/public/Images/gato.webp"   // Ruta de la imagen 3
+    ];
+
+    res.render("index", { imagenes });
 });
+
 
 app.get("/nuevo", async (req, res) => {
     res.render("regis.ejs");
@@ -106,13 +117,11 @@ app.post("/newGasto", async (req, res) => {
 
 // Ruta POST 
 app.post("/enviarRegistro", async (req, res) => {
-    // Recuperamos los datos
     const fecha = req.body.fecha;
     const riego = req.body.riego.toLowerCase() === "si";
     const fertilizacion = req.body.fertilizacion.toLowerCase() === "si";
     const anomalias = req.body.anomalias;
     const notas = req.body.notas;
-    //const foto = req.file ? req.file.filename : null;
 
     console.log("Fecha:", fecha);
     console.log("Riego:", riego);
@@ -120,28 +129,19 @@ app.post("/enviarRegistro", async (req, res) => {
     console.log("Anomalías:", anomalias);
     console.log("Notas:", notas);
 
-    //Guardamos todo en la base de datos
     try {
         await db.query(
-          "INSERT INTO seguimiento_cultivo (fecha, riego, fertilizacion, anomalias, notas) VALUES ($1, $2, $3, $4, $5)",
-          [fecha, riego, fertilizacion, anomalias, notas]
+            "INSERT INTO seguimiento_cultivo (fecha, riego, fertilizacion, anomalias, notas) VALUES ($1, $2, $3, $4, $5)",
+            [fecha, riego, fertilizacion, anomalias, notas]
         );
-        res.send(`
-            <html>
-                <head>
-                    <meta charset="UTF-8">
-                    <title>Registro Exitoso</title>
-                </head>
-                <body>
-                    <h1>Registro recibido exitosamente</h1>
-                    <button onclick="window.location.href='/'">Volver al Inicio</button>
-                </body>
-            </html>
-        `);
-      } catch (err) {
+        //res.status(200).json({ success: true, message: "Registro agregado exitosamente" });
+        res.redirect("/");
+    } catch (err) {
         console.log(err);
-      }
+        res.status(500).json({ success: false, message: "Error al agregar el registro" });
+    }
 });
+
 
 // Iniciar el servidor
 app.listen(port, () => {

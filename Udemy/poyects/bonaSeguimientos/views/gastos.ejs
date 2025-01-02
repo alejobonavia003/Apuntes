@@ -79,6 +79,13 @@
 </head>
 <body>
 
+    <div class="text-center my-3">
+        <form action="/" method="GET">
+            <input type="submit" class="btn btn-outline-success" value="Volver a Inicio">
+        </form>
+    </div>
+    
+
     <div class="container my-5">
         <h1 class="text-center mb-4">Registro de Gastos</h1>
 
@@ -127,7 +134,7 @@
                         <td><%= gasto.responsable %></td>
                         <td><%= gasto.fecha.toISOString().split('T')[0] %></td>
                     </tr>
-                    <% totalGastos += gasto.monto; %>
+                    <% totalGastos += parseFloat(gasto.monto); %>
                 <% }); %>
             </tbody>
         </table>
