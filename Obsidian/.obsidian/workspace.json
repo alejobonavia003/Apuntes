@@ -48,9 +48,37 @@
               "icon": "lucide-file",
               "title": "inicio de secion"
             }
+          },
+          {
+            "id": "d42b698d5da8b565",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "variables de entorno.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "variables de entorno"
+            }
+          },
+          {
+            "id": "43a07683dc6568b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "variables de entorno.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "variables de entorno"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -191,17 +219,21 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "dfc4c6cf9c5edd89",
+  "active": "43a07683dc6568b1",
   "lastOpenFiles": [
-    "Udemy/Base de datos/SQL.md",
+    "react.js.md",
     "inicio de secion.md",
-    "Udemy/Base de datos/PostergeSQL.md",
     "greenWeed.md",
+    "Funciones de Javascript.md",
+    "Universidad/Organizacion del procesador/Circuitos/HALF ADDER.md",
+    "0Auth.md",
+    "variables de entorno.md",
+    "Udemy/Base de datos/SQL.md",
+    "Udemy/Base de datos/PostergeSQL.md",
     "Universidad/Organizacion del procesador/Circuitos/Flips-Flops.md",
     "Universidad/Organizacion del procesador/Circuitos/DECODIFICADOR.md",
     "Udemy/Apuntes/Screnss/Relacion muchos a uno.png",
     "Udemy/Apuntes/Screnss/Relacion-uno a uno.png",
-    "Funciones de Javascript.md",
     "Udemy/Apuntes/Screnss/data-bases.png",
     "Udemy/Base de datos/SQL y noSQL Ventajas y desventajas.md",
     "Universidad/Finales/Final de Calculo.md",

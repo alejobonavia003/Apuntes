@@ -14,9 +14,9 @@ env.config(); // nose que hace
 
 app.use(
   session({
-    secret: "TOPSECRETWORD",
-    resave: false,
-    saveUninitialized: true,
+    secret: "TOPSECRETWORD",// firma para poder acceder a la cokie 
+    resave: false,// hace que se pierda la informacion cuando se modifica algo 
+    saveUninitialized: true,// guardan la sescion aunque no esten todos los datos 
   })//configura seciones para almacenar el esrado del usuario entre peticiones 
 );
 app.use(bodyParser.urlencoded({ extended: true }));//combierte detos del formulario en req.body
