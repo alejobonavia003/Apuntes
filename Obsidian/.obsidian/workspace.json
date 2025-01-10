@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "variables de entorno.md",
+                "file": "Udemy/Apuntes/react.js.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "variables de entorno"
+              "title": "react.js"
             }
           }
         ],
@@ -221,13 +221,14 @@
   },
   "active": "43a07683dc6568b1",
   "lastOpenFiles": [
-    "react.js.md",
-    "inicio de secion.md",
-    "greenWeed.md",
-    "Funciones de Javascript.md",
+    "Tareas semanales/Trabajo.md",
+    "Udemy/Apuntes/react.js.md",
+    "Udemy/Apuntes/variables de entorno.md",
+    "Udemy/Apuntes/inicio de secion.md",
+    "Udemy/Apuntes/greenWeed.md",
+    "Udemy/Apuntes/Funciones de Javascript.md",
     "Universidad/Organizacion del procesador/Circuitos/HALF ADDER.md",
     "0Auth.md",
-    "variables de entorno.md",
     "Udemy/Base de datos/SQL.md",
     "Udemy/Base de datos/PostergeSQL.md",
     "Universidad/Organizacion del procesador/Circuitos/Flips-Flops.md",
