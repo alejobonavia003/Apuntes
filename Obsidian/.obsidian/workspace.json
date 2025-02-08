@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Udemy/Apuntes/react.js.md",
+                "file": "Universidad/Organizacion del procesador/Resumen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "react.js"
+              "title": "Resumen"
             }
           }
         ],
@@ -221,8 +221,11 @@
   },
   "active": "43a07683dc6568b1",
   "lastOpenFiles": [
-    "Tareas semanales/Trabajo.md",
+    "Universidad/Organizacion del procesador/teoricos/Teorico 5.md",
+    "Universidad/Estadistica/Teórico 1.md",
+    "Tareas semanales/Universidad.md",
     "Udemy/Apuntes/react.js.md",
+    "Tareas semanales/Trabajo.md",
     "Udemy/Apuntes/variables de entorno.md",
     "Udemy/Apuntes/inicio de secion.md",
     "Udemy/Apuntes/greenWeed.md",
