@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "cca09c5ed4394e55",
+    "type": "split",
+    "children": [
+      {
+        "id": "7521d31c6eefd826",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3a63185fa2582c4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e2d20dbd605d6d83",
+    "type": "split",
+    "children": [
+      {
+        "id": "637ab40031a97aad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "808ec2e50eb55607",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "c1f0c39567960b70",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "95306a643a4ae928",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6f5367dc98b12b05",
+    "type": "split",
+    "children": [
+      {
+        "id": "f0de3cddcf763a2a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b600ef7b12fd312a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "933a638a7a89695c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "f1c1d6dafbefe908",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "6cdbff9f6fbf7e01",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "c617f74ca4faeb53",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "808ec2e50eb55607",
+  "lastOpenFiles": [
+    "Obsidian/Universidad/Organizacion del procesador/Circuitos/Compuertas Logicas/XOR.md",
+    "Obsidian/Universidad/Organizacion del procesador/Circuitos/Compuertas Logicas/XNOR.md",
+    "Obsidian/Universidad/Organizacion del procesador/Circuitos/Compuertas Logicas/OR.md",
+    "Obsidian/Universidad/Organizacion del procesador/Circuitos/Compuertas Logicas/NOT.md",
+    "Obsidian/Universidad/Organizacion del procesador/Circuitos/Compuertas Logicas/NOR.md",
+    "Obsidian/Universidad/Organizacion del procesador/Circuitos/Compuertas Logicas/NAND.md",
+    "Obsidian/Universidad/Organizacion del procesador/Circuitos/Compuertas Logicas/AND.md",
+    "Obsidian/Universidad/Organizacion del procesador/teoricos/Teórico 4.md",
+    "Obsidian/Universidad/Organizacion del procesador/teoricos/Teórico 3.md",
+    "Obsidian/Universidad/Organizacion del procesador/teoricos/Teórico 2.md",
+    "Obsidian/Universidad/Organizacion del procesador/teoricos/Teórico 1.md",
+    "Obsidian/Universidad/Organizacion del procesador/teoricos/Teorico 9.md",
+    "Obsidian/Universidad/Organizacion del procesador/teoricos/Teorico 8.md",
+    "Obsidian/Universidad/Organizacion del procesador/teoricos/Teorico 7.md",
+    "Obsidian/Universidad/Organizacion del procesador/teoricos/Teorico 6.md",
+    "Obsidian/Universidad/Organizacion del procesador/teoricos/Teorico 5.md",
+    "Obsidian/Universidad/Organizacion del procesador/teoricos/Teorico 11.md",
+    "Obsidian/Universidad/Organizacion del procesador/teoricos/Teorico 10.md",
+    "Obsidian/Universidad/Organizacion del procesador/screens/signo-y-magnitud.png",
+    "Obsidian/Universidad/Organizacion del procesador/screens/shift.png",
+    "Obsidian/Universidad/Organizacion del procesador/screens/sesgo-bias.png",
+    "Obsidian/Universidad/Organizacion del procesador/screens/pila_z80.png",
+    "Obsidian/Universidad/Organizacion del procesador/screens/memorias.png",
+    "Obsidian/Universidad/Organizacion del procesador/screens/half-adder.png",
+    "Obsidian/Universidad/Organizacion del procesador/screens/compuertasL.png",
+    "Obsidian/Universidad/Organizacion del procesador/screens/compuertas.png",
+    "Obsidian/Universidad/Organizacion del procesador/screens/cantidad-de-bits.png",
+    "Obsidian/Universidad/Organizacion del procesador/screens/bit-oculto.png",
+    "Obsidian/Universidad/Organizacion del procesador/Reprecentacion de numeros/Signo y magnitud.md",
+    "Obsidian/Universidad/Organizacion del procesador/Reprecentacion de numeros/Representación de números racionales.md",
+    "Obsidian/Universidad/Organizacion del procesador/Reprecentacion de numeros/Complemento a la base.md",
+    "Obsidian/Universidad/Organizacion del procesador/Pendientes/PushA.md",
+    "Obsidian/Universidad/Organizacion del procesador/Pendientes/PopA.md",
+    "Obsidian/Universidad/Organizacion del procesador/Pendientes/Leave.md",
+    "Obsidian/Universidad/Organizacion del procesador/Pendientes/Enter.md",
+    "Obsidian/Universidad/Organizacion del procesador/Operaciones/Suma y RestaR.md",
+    "Obsidian/Universidad/Organizacion del procesador/Circuitos/Compuertas Logicas",
+    "Obsidian/Universidad/Organizacion del procesador/teoricos",
+    "Obsidian/Universidad/Organizacion del procesador/screens",
+    "Obsidian/Universidad/Organizacion del procesador/Reprecentacion de numeros",
+    "Obsidian/Universidad/Organizacion del procesador/Pendientes",
+    "Obsidian/Universidad/Organizacion del procesador/Operaciones",
+    "Obsidian/Universidad/Organizacion del procesador/Definiciones",
+    "Obsidian/Universidad/Organizacion del procesador/Circuitos",
+    "Obsidian/Universidad/Organizacion del procesador/Assembly",
+    "Obsidian/Universidad/Organizacion del procesador"
+  ]
+}

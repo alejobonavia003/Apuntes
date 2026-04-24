@@ -1,6 +1,0 @@
-- [x] sacar el metodo de pago de mercado pago 
-- [x] arrglar el titulo del inicio [[Planes de mantenimiento Bellarosatta]]
-- [x] poner los insumos de estetica arriba por que es lo unico que vende 
-- [x] agregar la categoria de la tienda 
-- [x] asignarle el link a la categoria 
-- [ ] 

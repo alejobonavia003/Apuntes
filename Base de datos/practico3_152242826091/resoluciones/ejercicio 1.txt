@@ -1,0 +1,41 @@
+a) 
+
+b) 
+select producto.cod_producto, DESCRIPCION
+from ejercicio1.itemfactura join ejercicio1.producto on ejercicio1.itemfactura.cod_producto = ejercicio1.producto.cod_producto  
+where cantidad > 2
+order by descripcion asc;
+
+c) 
+select cliente.nro_cliente, apellido, nombre, direccion, telefono from ejercicio1.cliente 
+except 
+(select cliente.nro_cliente, apellido, nombre, direccion, telefono
+from ejercicio1.cliente 
+join ejercicio1.factura 
+on ejercicio1.cliente.nro_cliente = ejercicio1.factura.nro_cliente 
+)
+
+
+d) 
+select producto.cod_producto, producto.descripcion
+from ejercicio1.producto 
+join 
+(select producto.cod_producto as a
+from ejercicio1.producto
+except 
+(select distinct ejercicio1.Itemfactura.cod_producto 
+from ejercicio1.Itemfactura
+join ejercicio1.factura 
+on ejercicio1.Itemfactura.nro_factura = ejercicio1.factura.nro_factura
+)
+) 
+on ejercicio1.producto.cod_producto = a
+
+
+e) 
+select cliente.nro_cliente, apellido, nombre, direccion, telefono, nro_factura, fecha, monto
+from ejercicio1.cliente 
+left join ejercicio1.factura 
+on ejercicio1.cliente.nro_cliente = ejercicio1.factura.nro_cliente
+
+

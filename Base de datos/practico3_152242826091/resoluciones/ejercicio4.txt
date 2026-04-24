@@ -1,0 +1,14 @@
+a) echo con natacion por que no existe el futbol 
+select * 
+from ejercicio4.competidor 
+join ejercicio4.deporte
+on ejercicio4.competidor.cod_deporte = ejercicio4.deporte.cod_deporte
+where ejercicio4.deporte.cod_deporte = 6
+
+b) 
+select distinct pais 
+from ejercicio4.competicion
+except 
+select distinct pais 
+from ejercicio4.medalla
+

@@ -1,0 +1,30 @@
+a) alumnos que no participaron de ninguna clase
+select *
+from ((select * from ejercicio3.alumno) except (
+select alumno.nro_alumno, dni, nombre, apellido, sexo
+from ejercicio3.alumno 
+join ejercicio3.realiza 
+on ejercicio3.alumno.nro_alumno = ejercicio3.realiza.nro_alumno 
+))
+
+b) alumnos que participaron de almenos un taller con producto carteciano 
+select distinct *
+from ejercicio3.alumno cross join ejercicio3.realiza
+where ejercicio3.alumno.nro_alumno = ejercicio3.realiza.nro_alumno
+
+c) alumnos que participaron del taller codigo 1 y del taller con codigo 2 con union 
+select * 
+from 
+(select alumno.nro_alumno, alumno.nombre, alumno.dni
+from ejercicio3.alumno 
+left join ejercicio3.realiza 
+on ejercicio3.alumno.nro_alumno = ejercicio3.realiza.nro_alumno
+where ejercicio3.realiza.codigo_taller = 1)
+union 
+(select alumno.nro_alumno, alumno.nombre, alumno.dni
+from ejercicio3.alumno 
+left join ejercicio3.realiza 
+on ejercicio3.alumno.nro_alumno = ejercicio3.realiza.nro_alumno
+where ejercicio3.realiza.codigo_taller = 2)
+
+

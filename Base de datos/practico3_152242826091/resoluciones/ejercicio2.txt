@@ -1,0 +1,26 @@
+a)
+SELECT * 
+FROM ejercicio2.Competencia
+WHERE "CATEGORIA" > 80;
+
+b)
+SELECT club."NOMBRE_CLUB", competencia."CATEGORIA", participacion."PUESTO"
+FROM (ejercicio2.Competencia
+JOIN ejercicio2.participacion
+ON ejercicio2.Competencia."NRO_COMPETENCIA" = ejercicio2.participacion."NRO_COMPETENCIA"
+)
+JOIN ejercicio2.club
+ON ejercicio2.club."NRO_CLUB" = ejercicio2.participacion."NRO_CLUB" 
+WHERE Competencia."CATEGORIA" = 2
+
+
+c) 
+SELECT club."NOMBRE_CLUB"
+FROM (ejercicio2.Competencia
+JOIN ejercicio2.participacion
+ON ejercicio2.Competencia."NRO_COMPETENCIA" = ejercicio2.participacion."NRO_COMPETENCIA"
+)
+JOIN ejercicio2.club
+ON ejercicio2.club."NRO_CLUB" = ejercicio2.participacion."NRO_CLUB" 
+WHERE Competencia."CATEGORIA" = 2
+

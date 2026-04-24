@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI xmi.version="1.2" xmlns:UML="org.omg.xmi.namespace.UML">
+  <XMI.header>
+    <XMI.documentation>
+      <XMI.exporter>ChatGPT UML Generator</XMI.exporter>
+      <XMI.exporterVersion>1.0</XMI.exporterVersion>
+    </XMI.documentation>
+  </XMI.header>
+
+  <XMI.content>
+    <UML:Model name="JuegoMultiplataforma" xmi.id="model1">
+
+      <!-- Interfaces de productos -->
+      <UML:Class name="Controles" xmi.id="cls1" isAbstract="true"/>
+      <UML:Class name="Sonido" xmi.id="cls2" isAbstract="true"/>
+      <UML:Class name="Graficos" xmi.id="cls3" isAbstract="true"/>
+
+      <!-- Productos concretos -->
+      <UML:Class name="ControlesPlayStation" xmi.id="cls4"/>
+      <UML:Class name="SonidoPlayStation" xmi.id="cls5"/>
+      <UML:Class name="GraficosPlayStation" xmi.id="cls6"/>
+
+      <UML:Class name="ControlesNintendo" xmi.id="cls7"/>
+      <UML:Class name="SonidoNintendo" xmi.id="cls8"/>
+      <UML:Class name="GraficosNintendo" xmi.id="cls9"/>
+
+      <UML:Class name="ControlesPC" xmi.id="cls10"/>
+      <UML:Class name="SonidoPC" xmi.id="cls11"/>
+      <UML:Class name="GraficosPC" xmi.id="cls12"/>
+
+      <!-- Fábrica abstracta -->
+      <UML:Class name="PlataformaFactory" xmi.id="cls13" isAbstract="true">
+        <UML:Classifier.feature>
+          <UML:Operation name="crearControles"/>
+          <UML:Operation name="crearSonido"/>
+          <UML:Operation name="crearGraficos"/>
+        </UML:Classifier.feature>
+      </UML:Class>
+
+      <!-- Fábricas concretas -->
+      <UML:Class name="PlataformaPlayStation" xmi.id="cls14"/>
+      <UML:Class name="PlataformaNintendo" xmi.id="cls15"/>
+      <UML:Class name="PlataformaPC" xmi.id="cls16"/>
+
+      <!-- Cliente -->
+      <UML:Class name="Juego" xmi.id="cls17">
+        <UML:Classifier.feature>
+          <UML:Attribute name="controles" type="Controles"/>
+          <UML:Attribute name="sonido" type="Sonido"/>
+          <UML:Attribute name="graficos" type="Graficos"/>
+        </UML:Classifier.feature>
+      </UML:Class>
+
+      <!-- Relaciones -->
+      <UML:Generalization child="cls14" parent="cls13"/>
+      <UML:Generalization child="cls15" parent="cls13"/>
+      <UML:Generalization child="cls16" parent="cls13"/>
+
+      <UML:Generalization child="cls4" parent="cls1"/>
+      <UML:Generalization child="cls5" parent="cls2"/>
+      <UML:Generalization child="cls6" parent="cls3"/>
+
+      <UML:Generalization child="cls7" parent="cls1"/>
+      <UML:Generalization child="cls8" parent="cls2"/>
+      <UML:Generalization child="cls9" parent="cls3"/>
+
+      <UML:Generalization child="cls10" parent="cls1"/>
+      <UML:Generalization child="cls11" parent="cls2"/>
+      <UML:Generalization child="cls12" parent="cls3"/>
+
+      <!-- Dependencias -->
+      <UML:Dependency client="cls17" supplier="cls13"/>
+      <UML:Dependency client="cls14" supplier="cls4"/>
+      <UML:Dependency client="cls14" supplier="cls5"/>
+      <UML:Dependency client="cls14" supplier="cls6"/>
+
+      <UML:Dependency client="cls15" supplier="cls7"/>
+      <UML:Dependency client="cls15" supplier="cls8"/>
+      <UML:Dependency client="cls15" supplier="cls9"/>
+
+      <UML:Dependency client="cls16" supplier="cls10"/>
+      <UML:Dependency client="cls16" supplier="cls11"/>
+      <UML:Dependency client="cls16" supplier="cls12"/>
+
+    </UML:Model>
+  </XMI.content>
+</XMI>
+

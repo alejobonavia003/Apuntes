@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:mappings xmlns:tns="http://www.argouml.org/Namespace/argouml-sql"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.argouml.org/Namespace/argouml-sql domainmapping.xsd ">
+
+	<!-- Mappings for Firebird -->
+	<tns:database name="org.argouml.language.sql.FirebirdSqlCodeCreator">
+		<tns:mapping umltype="int" dbtype="INTEGER" />
+		<tns:mapping umltype="String" dbtype="VARCHAR(200)" />
+		<tns:mapping umltype="double" dbtype="DOUBLE PRECISION" />
+		<tns:mapping umltype="char" dbtype="CHAR" />
+		<tns:mapping umltype="float" dbtype="DOUBLE PRECISION" />
+		<tns:mapping umltype="Text" dbtype="VARCHAR(4000)" />
+	</tns:database>
+
+	<!-- Mappings for MySQL -->
+	<tns:database name="org.argouml.language.sql.MySqlCodeCreator">
+		<tns:mapping umltype="int" dbtype="INTEGER" />
+		<tns:mapping umltype="String" dbtype="VARCHAR(200)" />
+		<tns:mapping umltype="double" dbtype="DOUBLE PRECISION" />
+		<tns:mapping umltype="char" dbtype="CHAR" />
+		<tns:mapping umltype="float" dbtype="DOUBLE PRECISION" />
+		<tns:mapping umltype="Text" dbtype="LONGTEXT" />
+	</tns:database>
+</tns:mappings>
