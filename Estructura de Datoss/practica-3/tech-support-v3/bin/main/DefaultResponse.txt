@@ -1,0 +1,20 @@
+Eso suena extraño. ¿Podrías describir ese problema con más detalle?
+Ningún otro cliente se ha quejado de esto antes.¿Cuál es la configuración de tu sistema?
+Eso suena interesante. Cuéntame más...
+Necesito un poco más de información sobre eso.
+¿Has comprobado que no tengas un conflicto de DLL?
+Eso está explicado en el manual. ¿Has leído el manual?
+Tu descripción es un poco vaga. ¿Tienes un experto contigo que pueda describir esto con más precisión?
+¡Eso no es un error, es una característica!
+¿Podrías elaborar un poco más sobre eso?
+Parece que necesitamos más detalles para ayudarte mejor.
+¿Has intentado reiniciar tu sistema?
+Por favor, verifica si tienes la última versión instalada.
+Eso podría estar relacionado con un problema de compatibilidad. ¿Qué sistema operativo estás usando?
+¿Has revisado nuestra sección de preguntas frecuentes en el sitio web?
+Lamentamos el inconveniente. Estamos aquí para ayudarte.
+¿Podrías proporcionar un ejemplo específico del problema?
+Eso no debería estar sucediendo. Vamos a investigarlo.
+¿Has probado con una configuración diferente?
+Por favor, asegúrate de que todos los controladores estén actualizados.
+Gracias por informarnos. Trabajaremos en una solución lo antes posible.

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MusicOrganizerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-30T14:01:37" hostname="oxxoxxx--A315-34" time="5.543">
+  <properties/>
+  <testcase name="testStartPlaying()" classname="MusicOrganizerTest" time="5.543"/>
+  <system-out><![CDATA[Music library loaded. 4 tracks.
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

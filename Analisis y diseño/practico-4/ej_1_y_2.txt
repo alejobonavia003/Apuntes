@@ -1,0 +1,3 @@
+1) la diferencia es que en programacion dinamica, empezamos resolviendo los casos base y a partir de eso resolvemos hasta n
+
+2) si se puede siempre que los subproblemas no sean independientes, osea que aya llamadas recursivas que se solapan y que los problemas repetidos esten acotados polinomialmente 

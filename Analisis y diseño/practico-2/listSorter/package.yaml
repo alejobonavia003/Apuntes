@@ -1,0 +1,42 @@
+name:                listSorter
+version:             0.1.0.0
+license:             BSD3
+author:              "Sonia Permigiani"
+
+
+extra-source-files:
+- README.md
+
+dependencies:
+- base >= 4.7 && < 5
+- criterion
+- random >= 1.1
+
+library:
+  source-dirs: src
+
+executables:
+  listSorter-exe:
+    main:                Main.hs
+    source-dirs:         app
+    dependencies:
+    - listSorter
+    - QuickCheck
+
+tests:
+  listSorter-test:
+    main:                Spec.hs
+    source-dirs:         test
+    dependencies:
+    - listSorter
+    - hspec
+    - QuickCheck
+
+benchmarks: 
+    listSorter-bench:
+        main:                ListSortBench.hs
+        source-dirs:         bench
+        dependencies:
+        - listSorter
+        - hspec
+        - QuickCheck

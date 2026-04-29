@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ClubTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-05-05T19:22:31" hostname="oxxoxxx--A315-34" time="0.118">
+  <properties/>
+  <testcase name="testPurge()" classname="ClubTest" time="0.102"/>
+  <testcase name="testJoin()" classname="ClubTest" time="0.003"/>
+  <testcase name="testPurge1()" classname="ClubTest" time="0.004"/>
+  <testcase name="testJoinedInMonth()" classname="ClubTest" time="0.001"/>
+  <system-out><![CDATA[comparando: Name: Turing joined in month 1 of 1972
+eliminando: Name: Turing joined in month 1 of 1972
+comparando: Name: Dijkstra joined in month 4 of 1972
+comparando: Name: Turing joined in month 1 of 1972
+eliminando: Name: Turing joined in month 1 of 1972
+comparando: Name: Dijkstra joined in month 1 of 1972
+eliminando: Name: Dijkstra joined in month 1 of 1972
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

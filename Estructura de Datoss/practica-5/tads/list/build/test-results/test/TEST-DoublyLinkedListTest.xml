@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DoublyLinkedListTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2025-05-02T18:27:02" hostname="oxxoxxx--A315-34" time="0.46">
+  <properties/>
+  <testcase name="testAddAtIndexEndAgain()" classname="DoublyLinkedListTest" time="0.127"/>
+  <testcase name="testGet0()" classname="DoublyLinkedListTest" time="0.009"/>
+  <testcase name="testGet1()" classname="DoublyLinkedListTest" time="0.009"/>
+  <testcase name="testGet2()" classname="DoublyLinkedListTest" time="0.017"/>
+  <testcase name="testRemoveTaile()" classname="DoublyLinkedListTest" time="0.01"/>
+  <testcase name="testRemoveMedium()" classname="DoublyLinkedListTest" time="0.004"/>
+  <testcase name="testAddAtIndexBeginningAgain()" classname="DoublyLinkedListTest" time="0.01"/>
+  <testcase name="testRemoveHead()" classname="DoublyLinkedListTest" time="0.016"/>
+  <testcase name="testRemoveTail()" classname="DoublyLinkedListTest" time="0.006"/>
+  <testcase name="testAddAtIndexBeginning()" classname="DoublyLinkedListTest" time="0.008"/>
+  <testcase name="testAddAtIndexEnd()" classname="DoublyLinkedListTest" time="0.011"/>
+  <testcase name="testAddAtIndexMiddle()" classname="DoublyLinkedListTest" time="0.024"/>
+  <testcase name="testIndexOf()" classname="DoublyLinkedListTest" time="0.03"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

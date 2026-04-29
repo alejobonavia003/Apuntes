@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PhotoPostTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-23T18:15:01" hostname="oxxoxxx--A315-34" time="0.006">
+  <properties/>
+  <testcase name="testToString()" classname="PhotoPostTest" time="0.006"/>
+  <system-out><![CDATA[PhotoPost@58e1d9d
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

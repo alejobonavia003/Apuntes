@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HeaterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-03-26T16:53:05" hostname="oxxoxxx--A315-34" time="0.062">
+  <properties/>
+  <testcase name="testWarmerMax()" classname="HeaterTest" time="0.052"/>
+  <testcase name="testCoolerMin()" classname="HeaterTest" time="0.003"/>
+  <testcase name="testConstructor()" classname="HeaterTest" time="0.003"/>
+  <system-out><![CDATA[Superaria el maximo de temperatura soportado
+temperatura actual : 20.0
+temperatura actual : 0.0
+temperatura actual : 15.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
